@@ -36,5 +36,8 @@ jobs:
       - name: 文档一致性（版本号 / 章节日期 / 孤儿文件 / 报告引用）
         run: python scripts/doc_check.py
 
+      - name: 密钥自检（查工作区与全部 Git 对象）
+        run: python scripts/check_secrets.py
+
       - name: 零成本评测（规则自检 + 单价确定性，与冻结基线比对）
         run: python scripts/eval_run.py --suite lint --suite cost_determinism

@@ -33,6 +33,12 @@ PATTERNS = [
     ("Bearer 硬编码", re.compile(r"Bearer\s+[A-Za-z0-9_\-\.]{30,}")),
 ]
 
+# 预签名 URL 里的 AccessKeyId 是「标识」不是「凭据」：
+# 没有配套的 Secret 无法签发新请求，同 URL 里的 Expires 还会让它自动失效。
+# 它属于第三方 OSS（百炼自己的 bucket），既不是本项目的密钥，也不可复用于鉴权。
+# 所以单独归类，不计为泄密——否则检测器会在历史里一直红，最后没人看它。
+PRESIGNED = re.compile(r"Expires=(\d+)[^\"'\s]*?OSSAccessKeyId=(LTAI[A-Za-z0-9]{12,})")
+
 # 这些是文档里的占位符，允许出现
 ALLOW = ("REPLACE_WITH", "xxxxxxxx", "your-key", "YOUR_KEY", "<待填>")
 
@@ -52,10 +58,22 @@ def real_key() -> str:
     return ""
 
 
-def scan_text(text: str, where: str, key: str, hits: list[str]) -> None:
+def scan_text(text: str, where: str, key: str, hits: list[str],
+              notices: list[str] | None = None) -> None:
     if key and len(key) >= 16 and key in text:
         hits.append(f"{where}：命中了 .env 里的真实 PROVIDER_API_KEY")
         return          # 不继续报模式，避免重复计数
+
+    # 先把预签名 URL 从待检文本里摘掉，只留一条提示
+    for m in PRESIGNED.finditer(text):
+        exp, akid = int(m.group(1)), m.group(2)
+        import datetime as _dt
+        when = _dt.datetime.fromtimestamp(exp).strftime("%Y-%m-%d %H:%M")
+        state = "已过期" if exp < _dt.datetime.now().timestamp() else "未过期"
+        if notices is not None:
+            notices.append(f"{where}：预签名 URL（{akid[:6]}…，{when} {state}，第三方 OSS 标识）")
+    text = PRESIGNED.sub("[预签名URL]", text)
+
     for name, pat in PATTERNS:
         m = pat.search(text)
         if not m:
@@ -67,7 +85,7 @@ def scan_text(text: str, where: str, key: str, hits: list[str]) -> None:
         hits.append(f"{where}：疑似{name}（{frag[:6]}…，长度 {len(frag)}）")
 
 
-def scan_worktree(key: str, hits: list[str]) -> tuple[int, int]:
+def scan_worktree(key: str, hits: list[str], notices: list[str]) -> tuple[int, int]:
     files = 0
     for p in ROOT.rglob("*"):
         if not p.is_file():
@@ -82,11 +100,11 @@ def scan_worktree(key: str, hits: list[str]) -> tuple[int, int]:
             text = p.read_text(encoding="utf-8", errors="ignore")
         except OSError:
             continue
-        scan_text(text, str(rel).replace("\\", "/"), key, hits)
+        scan_text(text, str(rel).replace("\\", "/"), key, hits, notices)
     return files, 0
 
 
-def scan_git_history(key: str, hits: list[str]) -> int:
+def scan_git_history(key: str, hits: list[str], notices: list[str]) -> int:
     """遍历仓库里所有 blob（含未被任何提交引用的悬空对象）。"""
     try:
         revs = subprocess.run(["git", "cat-file", "--batch-all-objects",
@@ -104,7 +122,7 @@ def scan_git_history(key: str, hits: list[str]) -> int:
             text = raw.stdout.decode("utf-8", errors="ignore")
         except Exception:  # noqa: BLE001
             continue
-        scan_text(text, f"git 对象 {oid[:10]}", key, hits)
+        scan_text(text, f"git 对象 {oid[:10]}", key, hits, notices)
     return len(blobs)
 
 
@@ -115,16 +133,26 @@ def main() -> None:
 
     key = real_key()
     hits: list[str] = []
+    notices: list[str] = []
 
-    files, _ = scan_worktree(key, hits)
+    files, _ = scan_worktree(key, hits, notices)
     print(f"工作区：扫描 {files} 个文本文件")
 
     if not a.worktree:
-        n = scan_git_history(key, hits)
+        n = scan_git_history(key, hits, notices)
         print(f"Git 历史：扫描 {n} 个 blob（含未引用对象）")
 
     if not key:
         print("提示：没有读到 .env 里的 PROVIDER_API_KEY，只按通用模式检查。")
+
+    if notices:
+        # 去重（同一 blob 与工作区会重复报同一个 URL）
+        uniq = sorted(set(notices))
+        print(f"\n提示 {len(uniq)} 类（不计为泄密）：")
+        for n in uniq[:5]:
+            print("  ·", n)
+        if len(uniq) > 5:
+            print(f"  · …另有 {len(uniq) - 5} 类")
 
     if hits:
         print(f"\n✗ {len(hits)} 处命中：")
@@ -134,6 +162,8 @@ def main() -> None:
         sys.exit(1)
 
     print("\n✓ 干净：未发现真实 Key 或可疑密钥串")
+    if notices:
+        print("  （历史里的预签名 URL 已失效或属第三方标识，不构成泄漏）")
 
 
 if __name__ == "__main__":
