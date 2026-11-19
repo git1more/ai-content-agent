@@ -62,8 +62,18 @@ def load_env(path: Path = ENV_PATH) -> dict[str, str]:
 
 ENV = load_env()
 API_KEY = os.environ.get("PROVIDER_API_KEY") or ENV.get("PROVIDER_API_KEY", "")
-if not API_KEY:
-    raise SystemExit("缺少 PROVIDER_API_KEY（.env 或环境变量）")
+
+
+def require_key() -> str:
+    """惰性检查，不在 import 时 raise。
+
+    模块级 raise 会让所有 import 它的**纯本地**脚本一起崩——`manju_lint --selftest`、
+    `doc_check`、`ecom_set --dry-run` 都不发请求，但都会因为缺 key 直接退出。
+    从仓库 clone 下来的第一件事通常是跑自检，不该卡在这里。
+    """
+    if not API_KEY:
+        raise SystemExit("缺少 PROVIDER_API_KEY（复制 .env.example 为 .env 后填写）")
+    return API_KEY
 
 
 # --------------------------------------------------------------------------- #
@@ -119,7 +129,7 @@ def _post(payload: dict, timeout: int = 180, retries: int = 3) -> dict:
             url,
             data=body,
             headers={
-                "Authorization": f"Bearer {API_KEY}",
+                "Authorization": f"Bearer {require_key()}",
                 "Content-Type": "application/json",
             },
             method="POST",

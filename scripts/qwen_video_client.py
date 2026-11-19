@@ -64,13 +64,18 @@ def load_env() -> dict[str, str]:
 
 
 API_KEY = load_env().get("PROVIDER_API_KEY", "") or __import__("os").environ.get("PROVIDER_API_KEY", "")
-if not API_KEY:
-    raise SystemExit("缺少 PROVIDER_API_KEY")
+
+
+def require_key() -> str:
+    """惰性检查，理由同 qwen_image_client.require_key()。"""
+    if not API_KEY:
+        raise SystemExit("缺少 PROVIDER_API_KEY（复制 .env.example 为 .env 后填写）")
+    return API_KEY
 
 
 def _request(url: str, payload: dict | None = None, timeout: int = 90,
              extra_headers: dict | None = None, retries: int = 3) -> dict:
-    headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
+    headers = {"Authorization": f"Bearer {require_key()}", "Content-Type": "application/json"}
     headers.update(extra_headers or {})
     body = json.dumps(payload, ensure_ascii=False).encode("utf-8") if payload is not None else None
 
