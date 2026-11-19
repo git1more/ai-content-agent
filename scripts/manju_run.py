@@ -183,6 +183,19 @@ def stage_character(cfg: dict[str, Any], force: bool = False) -> str:
     return str(dst)
 
 
+def scrub_url(u: str | None) -> str:
+    """去掉预签名 URL 的鉴权参数，只留 path。
+
+    百炼返回的图片链接是 OSS 预签名 URL，末尾带三个查询参数（过期时间 / 访问键 ID / 签名）。
+    三者是配套的，留着等于把第三方 bucket 的访问键与签名一起写进仓库；
+    它们过期后也不再有下载价值，留着只是脏数据。
+    所以只保留 path——仍能追溯「这镜是哪一次调用产出的」，但不含任何凭据。
+    """
+    if not u:
+        return ""
+    return str(u).split("?", 1)[0]
+
+
 def _first_url(raw: dict[str, Any]) -> str | None:
     for ch in (raw.get("output") or {}).get("choices", []):
         for it in ch.get("message", {}).get("content", []):
@@ -377,7 +390,7 @@ def stage_keyframe(cfg: dict[str, Any], only: list[str] | None = None,
                     picked["systematic_fails"] = sys_fails
         m.setdefault("keyframes", {})[sid] = {
             "path": str(dst.relative_to(ROOT)),
-            "remote_url": source_url,
+            "remote_path": scrub_url(source_url),   # 不含签名参数，见 scrub_url()
             "seed": picked["seed"],
             "pick": picked,
             "prompt": prompt,

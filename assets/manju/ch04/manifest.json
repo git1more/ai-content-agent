@@ -4,7 +4,6 @@
   "keyframes": {
     "S1": {
       "path": "assets\\manju\\ch04\\S1_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/f9/20261119/4d8e5f57/bebebd14-c85c-9602-afd0-46e6e4fd8ea8_qwen_image3_serving_output_0.png?Expires=1795173953&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=XnXz%2FwYyPAY7UY6NDRHkXkdybv0%3D",
       "seed": 20261218,
       "pick": {
         "candidate": 0,
@@ -13,11 +12,11 @@
       },
       "prompt": "一扇关着的旧防盗门与它嵌在墙体里的门框，门缝下溢出一道暖黄光带，门缝里的光带忽然变亮，光带中有影子晃了一下又停住。场景：旧楼楼道，防盗门外侧：画面左侧是贴米黄瓷砖的墙面，顶上是水泥天花板与一盏声控灯，右侧敞开对着楼梯口；门框上下都与墙体接严。光线：门内溢出的暖黄灯光，从门缝平行挤出，在走廊地面上拉出一道薄光带，水泥地面、门槛的锈迹与浮尘。机位：固定机位（三脚架），与门把齐平，35mm 等效，中景。道具：防盗门由建筑本体（门框嵌进墙体）持有，门板正对镜头，门框上沿顶到天花板，门底有一道密封胶条，边缘磨损发毛；门框与墙面的接缝处有旧漆。手部：画面中只有 0 只手，无手入画；本镜为纯环境空镜，画面里不出现任何人物。天气：楼道口有雨（楼道内是干的），楼道口雨声持续，水痕止于门槛。空间归属：雨只落在画面右侧敞开的楼道口那一小段；门前贴瓷砖的地面是干的，只有几枚湿脚印。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：老式居民楼的楼道，左侧是贴米黄瓷砖的墙面，顶上是水泥天花板与一盏声控灯，右侧敞开对着楼梯口；门前是干燥的瓷砖地面，几枚湿脚印从楼道口一路带到门槛。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 17.93
+      "elapsed_s": 17.93,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/f9/20261119/4d8e5f57/bebebd14-c85c-9602-afd0-46e6e4fd8ea8_qwen_image3_serving_output_0.png"
     },
     "S2": {
       "path": "assets\\manju\\ch04\\S2_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/35/20261119/cbaaec42/85932abe-bf0b-97e0-80a9-f0dee04dd062_qwen_image3_serving_output_0.png?Expires=1795173964&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=CmnAFxd4SHn9bLBmMS2rjeniDUQ%3D",
       "seed": 20261319,
       "pick": {
         "candidate": 0,
@@ -26,11 +25,11 @@
       },
       "prompt": "一扇旧防盗门，门扇向内缓缓开出一道缝，门扇向内开出一道两掌宽的缝，暖黄光呈楔形铺到走廊地面上。场景：旧楼楼道，防盗门外侧；门扇向内开出一掌宽的缝，缝里是玄关与客厅的一角，进深有限，家具紧挨着墙。光线：门内客厅的暖黄吸顶灯，从门缝斜向切出，在地面投下梯形光斑，走廊地面、门框边缘与门槛处的水痕。机位：固定机位（三脚架），与门把齐平，35mm 等效，中景。道具：防盗门由建筑本体持有，门板正面朝向镜头，向画面内侧转开，门板表面漆皮起泡，猫眼位置是一个深色圆孔。手部：画面中只有 0 只手，无手入画；本镜为纯环境空镜，画面里不出现任何人物。天气：门内干燥（雨在楼道口那一侧），门外雨声持续，水迹只到门槛。空间归属：雨只在门框外侧的楼道口那一段；门内的书架、床与地板都是干的。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：镜头位于楼道一侧，正面是敞开的入户门；门内是一间干燥的暖黄室内——玄关、书架与床都在门内，地板干燥；地面的水迹只到门槛为止，门槛以内没有水。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 10.17
+      "elapsed_s": 10.17,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/35/20261119/cbaaec42/85932abe-bf0b-97e0-80a9-f0dee04dd062_qwen_image3_serving_output_0.png"
     },
     "S3": {
       "path": "assets\\manju\\ch04\\S3_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/fe/20261119/4d8e5f57/7ff341c9-19fa-9f89-8c53-b3fda82ceac9_qwen_image3_serving_output_0.png?Expires=1795172555&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=mydZgbzC2L3Mdx3MnxVVNXSlQCI%3D",
       "seed": 20261420,
       "pick": {
         "candidate": 0,
@@ -39,11 +38,11 @@
       },
       "prompt": "玄关地砖上并排放着一双深棕色男式皮鞋，鞋面湿透，鞋尖朝向屋内，鞋面的水正顺着鞋帮往下淌，在地砖上洇出一小片深色水渍。场景：旧楼玄关，米黄色老式地砖，墙边一只矮鞋柜。光线：客厅的暖黄吸顶灯，从画面右上方斜下来，把鞋影拉向左侧，皮鞋的湿亮面、地砖缝隙与水渍。机位：固定机位（三脚架），略俯约 40 度，50mm 等效，浅景深。道具：男式皮鞋由地面持有，鞋尖朝向画面深处（屋内方向），鞋跟对着镜头，一双，并排摆放，鞋带松松系着。手部：画面中只有 0 只手，无手入画；本镜为纯环境空镜，画面里不出现任何人物。天气：室内（暴雨被隔在门外），门外雨声与雨幕持续，窗玻璃上挂满水痕；她的发梢与肩头仍在滴水。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：室内，雨被隔在门外，只在窗上留下水痕、只听得到雨声；九十年代老式装修，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；地面干燥。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 11.28
+      "elapsed_s": 11.28,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/fe/20261119/4d8e5f57/7ff341c9-19fa-9f89-8c53-b3fda82ceac9_qwen_image3_serving_output_0.png"
     },
     "S4": {
       "path": "assets\\manju\\ch04\\S4_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/fa/20261119/cbaaec42/cdfb06e7-b126-9ef2-8f82-35f6aabeacf5_qwen_image3_serving_output_0.png?Expires=1795172568&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=wVEZfHgyTR6uNWxQ9hYdRQfcGuI%3D",
       "seed": 20261521,
       "pick": {
         "candidate": 0,
@@ -52,11 +51,11 @@
       },
       "prompt": "22 岁中国女性林夏，齐耳短发中分偏左、发梢滴水，米白色薄冲锋衣（胸前一道横向黄色反光条，立领拉链拉到顶），左眉尾外侧一颗小痣，她站在玄关没动，视线垂向地面那双鞋，雨水顺着发梢滴在她的肩上。身份特征（每一镜都必须完全一致）：脸型：鹅蛋脸，颧骨不明显，下颌线偏软；眉：细直眉，眉尾略下压；眼：单眼皮，眼尾略上挑，深褐色瞳；发型：齐耳短发，中分偏左，发尾刚过下颌线，两侧耳廓被发丝部分遮住；服装：米白色薄冲锋衣，胸前一道横向黄色反光条横贯前身，立领，拉链拉到顶；面部标记：左眉尾外侧一颗小痣。场景：旧楼玄关，身后是半开的防盗门，门外走廊的冷光切进来一道。光线：客厅的暖黄吸顶灯与门外走廊冷光，暖光从右前方照她，冷光从背后勾一道边，她的侧颊、湿发、肩线与胸前反光条。机位：固定机位（三脚架），略高于她的视线，微俯，85mm 等效，浅景深。手部：画面中只有 0 只手，无手入画；双臂在画框下缘之外，不可见。人体比例：近景，画面到胸口，肩宽约为头高的 1.7 倍，颈部短，下巴到领口约 0.2 倍头高。肩线平缓不下溜。天气：室内（暴雨被隔在门外），门外雨声与雨幕持续，窗玻璃上挂满水痕；她的发梢与肩头仍在滴水。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：室内，雨被隔在门外，只在窗上留下水痕、只听得到雨声；九十年代老式装修，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；地面干燥。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 11.48
+      "elapsed_s": 11.48,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/fa/20261119/cbaaec42/cdfb06e7-b126-9ef2-8f82-35f6aabeacf5_qwen_image3_serving_output_0.png"
     },
     "S5": {
       "path": "assets\\manju\\ch04\\S5_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/f3/20261119/cbaaec42/1b5dcc48-d6cb-9cd6-b3bc-a1c9b91dc603_qwen_image3_serving_output_0.png?Expires=1795172587&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=mCid5EtzGXloDs1KE9g4nWTML4c%3D",
       "seed": 20261622,
       "pick": {
         "candidate": 0,
@@ -65,11 +64,11 @@
       },
       "prompt": "22 岁中国女性林夏，齐耳短发中分偏左、发梢滴水，米白色薄冲锋衣（胸前一道横向黄色反光条，立领拉链拉到顶），左眉尾外侧一颗小痣，背影，她背对镜头往客厅里走，走了三步停住，头缓缓转向茶几方向。身份特征（每一镜都必须完全一致）：脸型：鹅蛋脸，颧骨不明显，下颌线偏软；眉：细直眉，眉尾略下压；眼：单眼皮，眼尾略上挑，深褐色瞳；发型：齐耳短发，中分偏左，发尾刚过下颌线，两侧耳廓被发丝部分遮住；服装：米白色薄冲锋衣，胸前一道横向黄色反光条横贯前身，立领，拉链拉到顶；面部标记：左眉尾外侧一颗小痣。场景：旧楼客厅，九十年代装修，沙发与茶几，墙面返潮有水渍。光线：客厅的暖黄吸顶灯，从她头顶后上方照下，把她的影子投在前方地板上，后背的黄色反光条、湿发与地板。机位：固定机位（三脚架），与她的肩齐平，35mm 等效，中景。手部：画面中只有 0 只手，无手入画；双臂自然垂在身侧，被身体遮挡。人体比例：中景，人物约占画面二分之一，肩宽约为头高的 1.7 倍，颈部短，下巴到领口约 0.2 倍头高。肩线平缓不下溜。天气：室内（暴雨被隔在门外），门外雨声与雨幕持续，窗玻璃上挂满水痕；她的发梢与肩头仍在滴水。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：室内，雨被隔在门外，只在窗上留下水痕、只听得到雨声；九十年代老式装修，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；地面干燥。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 17.84
+      "elapsed_s": 17.84,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/f3/20261119/cbaaec42/1b5dcc48-d6cb-9cd6-b3bc-a1c9b91dc603_qwen_image3_serving_output_0.png"
     },
     "S6": {
       "path": "assets\\manju\\ch04\\S6_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/44/20261119/4d8e5f57/e729dbdf-ce2e-91c5-8afb-f88c0bf63170_qwen_image3_serving_output_0.png?Expires=1795173126&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=XQLIw%2BpDLL437T361S%2BUWRj4Wbg%3D",
       "seed": 20261723,
       "pick": {
         "candidate": 0,
@@ -78,11 +77,11 @@
       },
       "prompt": "客厅茶几上摆着两只外卖餐盒，一只盖着，一只已经打开，打开的那只餐盒里，菜还亮着一层油光，盒盖内侧凝着一层细密水珠，水珠正沿着盒壁往下滑。场景：旧楼客厅，玻璃茶几，桌面上有一圈没擦干的水印。光线：客厅的暖黄吸顶灯，从正上方垂直照下，餐盒在桌面投出短影，餐盒的塑料反光、盒盖内侧的水珠与桌面水印。机位：固定机位（三脚架），略俯约 45 度，35mm 等效，中景。道具：外卖餐盒由茶几持有，盒盖朝向画面右上方掀开，盒口对着镜头，两只同款深色方盒，盒身无任何标签或字样。手部：画面中只有 0 只手，无手入画；本镜为纯环境空镜，画面里不出现任何人物。天气：室内（暴雨被隔在门外），门外雨声与雨幕持续，窗玻璃上挂满水痕；她的发梢与肩头仍在滴水。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：室内，雨被隔在门外，只在窗上留下水痕、只听得到雨声；九十年代老式装修，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；地面干燥。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 12.62
+      "elapsed_s": 12.62,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/44/20261119/4d8e5f57/e729dbdf-ce2e-91c5-8afb-f88c0bf63170_qwen_image3_serving_output_0.png"
     },
     "S7": {
       "path": "assets\\manju\\ch04\\S7_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/1e/20261119/4d8e5f57/55377d73-a930-984c-a620-89cae3981cfd_qwen_image3_serving_output_0.png?Expires=1795172611&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=bXuCeD1%2FRVWebeqcwtHopTDxuh4%3D",
       "seed": 20261824,
       "pick": {
         "candidate": 0,
@@ -91,11 +90,11 @@
       },
       "prompt": "22 岁中国女性林夏，齐耳短发中分偏左、发梢滴水，米白色薄冲锋衣（胸前一道横向黄色反光条，立领拉链拉到顶），左眉尾外侧一颗小痣，正面，她站在茶几边看着那只开着的餐盒，眉心有一道很浅的褶，呼吸放得很轻。身份特征（每一镜都必须完全一致）：脸型：鹅蛋脸，颧骨不明显，下颌线偏软；眉：细直眉，眉尾略下压；眼：单眼皮，眼尾略上挑，深褐色瞳；发型：齐耳短发，中分偏左，发尾刚过下颌线，两侧耳廓被发丝部分遮住；服装：米白色薄冲锋衣，胸前一道横向黄色反光条横贯前身，立领，拉链拉到顶；面部标记：左眉尾外侧一颗小痣。场景：旧楼客厅，身后是沙发与返潮的墙面。光线：客厅的暖黄吸顶灯，从她右上方照下来，眼窝有一层浅影，她的侧颊、湿发与领口的雨珠。机位：固定机位（三脚架），与她的视线齐平，85mm 等效，浅景深。手部：画面中只有 0 只手，无手入画；双臂在画框之外。人体比例：近景，画面到胸口，肩宽约为头高的 1.7 倍，颈部短，下巴到领口约 0.2 倍头高。肩线平缓不下溜。天气：室内（暴雨被隔在门外），门外雨声与雨幕持续，窗玻璃上挂满水痕；她的发梢与肩头仍在滴水。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：室内，雨被隔在门外，只在窗上留下水痕、只听得到雨声；九十年代老式装修，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；地面干燥。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 11.33
+      "elapsed_s": 11.33,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/1e/20261119/4d8e5f57/55377d73-a930-984c-a620-89cae3981cfd_qwen_image3_serving_output_0.png"
     },
     "S8": {
       "path": "assets\\manju\\ch04\\S8_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/63/20261119/4d8e5f57/8ecce29c-16f5-9743-8556-0ca5cebcb751_qwen_image3_serving_output_0.png?Expires=1795172623&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=RvQ6hRtYUwwzF4sFYhQsfzHz6Yw%3D",
       "seed": 20261925,
       "pick": {
         "candidate": 0,
@@ -104,11 +103,11 @@
       },
       "prompt": "一只打开的外卖餐盒，里面是糖醋排骨与一份白米饭，排骨上还挂着亮油，热气一缕缕往上飘，米饭堆得整整齐齐。场景：旧楼客厅茶几，盒身深色，内衬是一次性铝箔。光线：客厅的暖黄吸顶灯，从正上方压下来，油光在排骨表面聚成亮点，排骨的油亮面、米粒与盒壁的铝箔反光。机位：固定机位（三脚架），近距俯拍约 60 度，50mm 等效微距，浅景深。道具：外卖餐盒由茶几持有，盒口朝向镜头，盒盖掀在画面右上角之外，盒身与外壁无任何标签、logo 或字样。手部：画面中只有 0 只手，无手入画；本镜为纯环境空镜，画面里不出现任何人物。天气：室内（暴雨被隔在门外），门外雨声与雨幕持续，窗玻璃上挂满水痕；她的发梢与肩头仍在滴水。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：室内，雨被隔在门外，只在窗上留下水痕、只听得到雨声；九十年代老式装修，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；地面干燥。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 11.19
+      "elapsed_s": 11.19,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/63/20261119/4d8e5f57/8ecce29c-16f5-9743-8556-0ca5cebcb751_qwen_image3_serving_output_0.png"
     },
     "S9": {
       "path": "assets\\manju\\ch04\\S9_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/f1/20261119/cbaaec42/aec07311-35bb-9304-b124-5218ef7ca84c_qwen_image3_serving_output_0.png?Expires=1795172637&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=1SXehAR215LmcTMkra3lut4xjnU%3D",
       "seed": 20262026,
       "pick": {
         "candidate": 0,
@@ -117,11 +116,11 @@
       },
       "prompt": "22 岁中国女性林夏，齐耳短发中分偏左、发梢滴水，米白色薄冲锋衣（胸前一道横向黄色反光条，立领拉链拉到顶），左眉尾外侧一颗小痣，半侧身，她往后退了半步，后背抵到墙上，随即把头猛地转向门口方向，手肘撞到墙面。身份特征（每一镜都必须完全一致）：脸型：鹅蛋脸，颧骨不明显，下颌线偏软；眉：细直眉，眉尾略下压；眼：单眼皮，眼尾略上挑，深褐色瞳；发型：齐耳短发，中分偏左，发尾刚过下颌线，两侧耳廓被发丝部分遮住；服装：米白色薄冲锋衣，胸前一道横向黄色反光条横贯前身，立领，拉链拉到顶；面部标记：左眉尾外侧一颗小痣。场景：旧楼客厅，她背后是返潮的墙与一只旧挂钟，钟面停在某个时刻。光线：客厅的暖黄吸顶灯，从她左前方横切过来，半张脸在暗处，她抵墙的肩、颈侧的汗与挂钟的玻璃面。机位：固定机位（三脚架），略低于她的视线，85mm 等效，浅景深。手部：画面中只有 0 只手，无手入画；双臂在画框之外。人体比例：近景，画面到肩线，肩宽约为头高的 1.7 倍，颈部短，下巴到领口约 0.2 倍头高。肩线平缓不下溜。天气：室内（暴雨被隔在门外），门外雨声与雨幕持续，窗玻璃上挂满水痕；她的发梢与肩头仍在滴水。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：室内，雨被隔在门外，只在窗上留下水痕、只听得到雨声；九十年代老式装修，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；地面干燥。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 12.13
+      "elapsed_s": 12.13,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/f1/20261119/cbaaec42/aec07311-35bb-9304-b124-5218ef7ca84c_qwen_image3_serving_output_0.png"
     },
     "S10": {
       "path": "assets\\manju\\ch04\\S10_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/07/20261119/4d8e5f57/b1cd8c25-f394-9a06-82af-c2acaedc2183_qwen_image3_serving_output_0.png?Expires=1795172648&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=MkBae2%2FlBCrYHZc9MAtJT4evGIc%3D",
       "seed": 20262127,
       "pick": {
         "candidate": 0,
@@ -130,11 +129,11 @@
       },
       "prompt": "一张九十年代的布艺三人沙发，座垫上有一处明显的凹陷，凹陷里还压着一点褶皱，中间座垫的凹陷正在极缓慢地回弹，凹陷边缘的布面还在轻轻动。场景：旧楼客厅，沙发靠墙，墙上有一块返潮的深色水渍，扶手搭着一条旧毛巾。光线：客厅的暖黄吸顶灯，从画面右上方斜下，凹陷处落着一小块亮斑，布面的绒毛、凹陷的暗部与毛巾的褶皱。机位：固定机位（三脚架），与人坐下时的视线齐平，35mm 等效，中景。道具：布艺沙发由地面持有，座面正对镜头，靠背贴墙，三人座，中间那个座位凹陷最深。手部：画面中只有 0 只手，无手入画；本镜为纯环境空镜，画面里不出现任何人物。天气：室内（暴雨被隔在门外），门外雨声与雨幕持续，窗玻璃上挂满水痕；她的发梢与肩头仍在滴水。画面文字：门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：室内，雨被隔在门外，只在窗上留下水痕、只听得到雨声；九十年代老式装修，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；地面干燥。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 10.37
+      "elapsed_s": 10.37,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/07/20261119/4d8e5f57/b1cd8c25-f394-9a06-82af-c2acaedc2183_qwen_image3_serving_output_0.png"
     },
     "S11": {
       "path": "assets\\manju\\ch04\\S11_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/44/20261119/cbaaec42/2c7f3624-07e3-92f1-ba9a-df04d9da41d3_qwen_image3_serving_output_0.png?Expires=1795173976&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=SdEXkb3WTEu9AVildUgYzsGegBM%3D",
       "seed": 20262228,
       "pick": {
         "candidate": 0,
@@ -143,11 +142,11 @@
       },
       "prompt": "防盗门内侧的锁体面板填满画面：一枚圆形反锁旋钮、一只压把式把手，门框上对应三道锁舌孔；门框嵌在墙体里，上下接严，那枚反锁旋钮自己缓缓转动了一格，锁舌咔哒一声顶到位，门板跟着轻轻一震。场景：旧楼玄关内侧：门框两侧与上下都是贴墙纸的墙体，接缝严实；门内一步之外就是对面的墙，玄关进深不到两米。光线：客厅的暖黄吸顶灯，从画面右上角斜掠门板，金属件上拉出细高光，旋钮的金属环、压把的镀层磨白处、门框漆面的龟裂纹。机位：固定机位（三脚架），与锁体齐平，65mm 等效微距，浅景深。道具：反锁旋钮与把手由门板持有，正对镜头，旋钮在画面中央偏上，压把把手在其正下方，旋钮侧面有一道指示转到底的短刻线，周围一圈被手指磨亮的痕。手部：画面中只有 0 只手，无手入画；本镜只拍门板与锁体，人体完全在画框之外。天气：室内（雨在窗外），窗外雨声持续，窗玻璃上流着雨水。空间归属：雨只在窗玻璃的外侧（玻璃上流着水）；室内地面、家具与她的身上之外都是干的。画面文字：门板与锁体是无标识的金属与漆面，只有划痕与反光；门框上不出现门牌号。环境连续（每一镜都必须出现）：九十年代老式装修的室内，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；窗玻璃外侧流着雨水，室内地面干燥、家具表面没有水痕。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 11.56
+      "elapsed_s": 11.56,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/44/20261119/cbaaec42/2c7f3624-07e3-92f1-ba9a-df04d9da41d3_qwen_image3_serving_output_0.png"
     },
     "S12": {
       "path": "assets\\manju\\ch04\\S12_keyframe.png",
-      "remote_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/4a/20261119/4d8e5f57/8d3aedd3-3f9c-9d5d-bdde-d021772b320e_qwen_image3_serving_output_0.png?Expires=1795172672&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=pTsky2SLZAULppj02h3%2FiIqKr2Y%3D",
       "seed": 20262329,
       "pick": {
         "candidate": 0,
@@ -156,7 +155,8 @@
       },
       "prompt": "玄关矮鞋柜上放着的一部手机，屏幕忽然亮起，屏幕亮起一层暖白光，光晕在暗着的玄关里散开，把鞋柜边缘照亮。场景：旧楼玄关，矮鞋柜台面，背景是关严的防盗门与暗下来的走廊。光线：手机屏幕，屏幕朝上，光向上漫开，照亮柜面与墙面一小片，鞋柜台面的木纹、手机边框与墙面的一小块暖斑。机位：固定机位（三脚架），略俯约 35 度，50mm 等效，浅景深。道具：手机由鞋柜台面持有，屏幕朝上、略倾向镜头，屏幕内容只是一片暖白光斑与模糊色块，机身套着磨旧的透明壳，边角有水汽。手部：画面中只有 0 只手，无手入画；本镜为纯环境空镜，画面里不出现任何人物。天气：室内（暴雨被隔在门外），门外雨声与雨幕持续，窗玻璃上挂满水痕；她的发梢与肩头仍在滴水。画面文字：手机屏幕只呈现暖白光斑与模糊的 UI 色块，不可读；门板、墙面与家什都是无标识的整块表面，只有雨痕与反光。环境连续（每一镜都必须出现）：室内，雨被隔在门外，只在窗上留下水痕、只听得到雨声；九十年代老式装修，墙面返潮有水渍、踢脚线漆面剥落；主光是客厅的暖黄吸顶灯，越靠墙角越暗；地面干燥。2.5D 国漫电影质感，赛璐璐平涂上色配合写实光影，浅景深，电影级构图，柔和体积光，轻微胶片颗粒。画幅 9:16 竖屏，画面铺满画幅，不出现边框、色块、渐变遮罩或分栏。",
       "cost_cny": 0.18,
-      "elapsed_s": 11.16
+      "elapsed_s": 11.16,
+      "remote_path": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/4a/20261119/4d8e5f57/8d3aedd3-3f9c-9d5d-bdde-d021772b320e_qwen_image3_serving_output_0.png"
     }
   },
   "clips": {
@@ -249,7 +249,7 @@
     "living_room": {
       "name": "九十年代客厅",
       "sheet": "assets\\manju\\ch04\\env_living_room.png",
-      "sheet_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/d6/20261119/4d8e5f57/f038009e-69f2-9938-af05-31c7f314ff5a_qwen_image3_serving_output_0.png?Expires=1795179152&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=W%2F5NWarcUDTf%2BrdGTZ3hcEMpb7w%3D",
+      "sheet_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/d6/20261119/4d8e5f57/f038009e-69f2-9938-af05-31c7f314ff5a_qwen_image3_serving_output_0.png",
       "seed": 20261117,
       "cost_cny": 0.18,
       "elapsed_s": 6.07
@@ -257,7 +257,7 @@
     "entry": {
       "name": "九十年代入户玄关",
       "sheet": "assets\\manju\\ch04\\env_entry.png",
-      "sheet_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/d3/20261119/4d8e5f57/77193021-1e97-9142-8b67-169a94abd93b_qwen_image3_serving_output_0.png?Expires=1795179170&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=Y9VyzQJFXNbyFChGQg%2FczqsBasU%3D",
+      "sheet_url": "https://dashscope-a717.oss-accelerate.aliyuncs.com/1d/d3/20261119/4d8e5f57/77193021-1e97-9142-8b67-169a94abd93b_qwen_image3_serving_output_0.png",
       "seed": 20261117,
       "cost_cny": 0.18,
       "elapsed_s": 5.97
