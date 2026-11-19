@@ -1,0 +1,11 @@
+# 统一换行符为 LF：否则 Windows 提交 / Linux 检出会让每个文本文件都显示"全部改动"
+* text=auto eol=lf
+
+# 二进制文件不做换行处理（体量统计与 diff 都会出错）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp4 binary
+*.wav binary
+*.exe binary
+*.ttf binary
