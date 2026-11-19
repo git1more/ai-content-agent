@@ -136,6 +136,11 @@ LLM 在这套东西里的位置是**填表**，不是**决定流程**。它写�
 
 ## 环境
 
+```bash
+git clone https://github.com/git1more/ai-content-agent.git
+cd ai-content-agent
+```
+
 Python 3.11+，外部依赖只有两个：
 
 ```bash
