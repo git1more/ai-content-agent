@@ -1,0 +1,45 @@
+{
+  "run_id": "DR-NAVY-02__T1__qwen30",
+  "sku": "DR-NAVY-02",
+  "task": "T1",
+  "model": "qwen-image-3.0",
+  "prompt": "把图中的藏青色无袖A字连衣裙放到纯白色 #FFFFFF 无缝背景上，不要添加任何投影、阴影或倒影，背景必须纯净无渐变。必须严格保持以下身份特征，不得改动：藏青色（深但带明显蓝调）；V 领；自然腰位的横向腰节分割缝；前中门襟 5 颗同色布面包扣，数量与等距关系不变；A 字展开裙摆；面料为哑光斜纹梭织。商品完整、居中、不裁切，保持原有朝向与姿态。",
+  "ref": "assets\\p0_testset\\DR-NAVY-02\\ref_front.png",
+  "started_at": "2026-11-17T05:21:00+00:00",
+  "status": "ok",
+  "elapsed_s": 8.54,
+  "usage": {
+    "input_image_count": 1,
+    "input_image_type": "qima_input_1k",
+    "output_height": 1024,
+    "output_image_count": 1,
+    "output_image_type": "qima_output_1k",
+    "output_width": 1024
+  },
+  "raw": "runs\\DR-NAVY-02__T1__qwen30\\raw_0.png",
+  "final": "runs\\DR-NAVY-02__T1__qwen30\\final.png",
+  "compliance": {
+    "spec": "white_pack_1x1",
+    "pass": true,
+    "canvas": [
+      1200,
+      1200
+    ],
+    "product_h_ratio": 0.652,
+    "product_w_ratio": 0.333,
+    "top_safe_ratio": 0.15,
+    "side_balance": [
+      0.333,
+      0.334
+    ],
+    "bg_median": [
+      255,
+      255,
+      255
+    ],
+    "bg_spread": 0.0,
+    "issues": []
+  },
+  "cost_cny": 0.18,
+  "cost_usd": 0.0252
+}

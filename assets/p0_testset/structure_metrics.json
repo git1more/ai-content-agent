@@ -1,0 +1,58 @@
+{
+  "TS-WHITE-01__T1__qwen30": {
+    "ref_aspect": 1.15,
+    "ref_source": "canny",
+    "out_aspect": 1.148,
+    "aspect_deviation_pct": -0.2,
+    "verdict": "PASS"
+  },
+  "DR-NAVY-02__T1__qwen30": {
+    "ref_aspect": 2.115,
+    "ref_source": "canny",
+    "out_aspect": 1.963,
+    "aspect_deviation_pct": -7.2,
+    "verdict": "PARTIAL"
+  },
+  "JK-ORANGE-03__T1__qwen30": {
+    "ref_aspect": 1.171,
+    "ref_source": "canny",
+    "out_aspect": 1.179,
+    "aspect_deviation_pct": 0.7,
+    "verdict": "PASS"
+  },
+  "SR-GLASS-04__T1__qwen30": {
+    "ref_aspect": 3.207,
+    "ref_source": "canny",
+    "out_aspect": 3.227,
+    "aspect_deviation_pct": 0.6,
+    "verdict": "PASS"
+  },
+  "CR-MATTE-05__T1__qwen30": {
+    "ref_aspect": 0.714,
+    "ref_source": "manual",
+    "out_aspect": 0.938,
+    "aspect_deviation_pct": 31.4,
+    "verdict": "FAIL"
+  },
+  "LS-BLACK-06__T1__qwen30": {
+    "ref_aspect": 5.233,
+    "ref_source": "canny",
+    "out_aspect": 5.403,
+    "aspect_deviation_pct": 3.2,
+    "verdict": "PASS"
+  },
+  "TS-WHITE-01__T1__baseline": {
+    "ref_aspect": 1.15,
+    "ref_source": "canny",
+    "out_aspect": 1.166,
+    "aspect_deviation_pct": 1.4,
+    "verdict": "PASS"
+  },
+  "SR-GLASS-04__T1__baseline": {
+    "ref_aspect": 3.207,
+    "ref_source": "canny",
+    "out_aspect": 3.219,
+    "aspect_deviation_pct": 0.4,
+    "verdict": "PASS"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "run_id": "LS-BLACK-06__T1__qwen30",
+  "sku": "LS-BLACK-06",
+  "task": "T1",
+  "model": "qwen-image-3.0",
+  "seed": null,
+  "prompt": "把图中的黑管金环口红（盖子与管身并排）放到纯白色 #FFFFFF 无缝背景上，不要添加任何投影、阴影或倒影，背景必须纯净无渐变。必须严格保持以下身份特征，不得改动：画面含两个并列部件，均竖直立放：左侧为独立的黑色哑光圆柱盖子（顶端封闭、底端开口，高度约等于管身总高）；右侧为管身组合，自下而上依次是黑色哑光管身、约1.5cm宽香槟金拉丝金属环、银色金属内管；砂红色膏体从内管旋出约1.2cm，顶部为斜切面，斜切面朝向左前方；两件平行并排、底端对齐、间距约1.5倍管径；黑管表面仅有纵向柔和高光，无强反射、无金属镜面。商品完整、居中、不裁切，保持原有朝向与姿态。",
+  "ref": "assets\\p0_testset\\LS-BLACK-06\\ref_front.png",
+  "started_at": "2026-11-17T10:03:44+00:00",
+  "status": "ok",
+  "elapsed_s": 7.38,
+  "usage": {
+    "input_image_count": 1,
+    "input_image_type": "qima_input_1k",
+    "output_height": 1024,
+    "output_image_count": 1,
+    "output_image_type": "qima_output_1k",
+    "output_width": 1024
+  },
+  "raw": "runs\\LS-BLACK-06__T1__qwen30\\raw_0.png",
+  "final": "runs\\LS-BLACK-06__T1__qwen30\\final.png",
+  "compliance": {
+    "spec": "white_pack_1x1",
+    "pass": true,
+    "canvas": [
+      1200,
+      1200
+    ],
+    "product_h_ratio": 0.652,
+    "product_w_ratio": 0.118,
+    "top_safe_ratio": 0.15,
+    "side_balance": [
+      0.441,
+      0.441
+    ],
+    "bg_median": [
+      255,
+      255,
+      255
+    ],
+    "bg_spread": 0.0,
+    "issues": []
+  },
+  "cost_cny": 0.18,
+  "cost_usd": 0.0252
+}

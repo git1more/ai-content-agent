@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "purpose": "镜头提示词的结构化表单。LLM 只填字段，不写散文；编译层负责拼装成最终提示词，lint 负责校验。",
+  "background": "2026-11-18 五模型横测结论：自由写作组平均 2.4/8，换模型最多 +1 分且不稳定；改为填表后升到 4.8/8，加字段后升到 7/8。同一批模型、同一批缺陷——差距来自结构，不来自模型强弱。",
+
+  "fields": {
+    "subject": {
+      "type": "string",
+      "required": true,
+      "desc": "主体：年龄 / 身份 / 关键外观，必须具体到能画",
+      "bad": "一个女孩",
+      "good": "22 岁女性外卖骑手，齐耳短发，米白冲锋衣胸前横向黄反光条，左眉尾一颗小痣"
+    },
+    "action_moment": {
+      "type": "string",
+      "required": true,
+      "desc": "动作的**瞬间**，不是过程叙述。一镜只允许一个核心动作",
+      "bad": "她跑过来、摔倒、又爬起来",
+      "good": "拇指悬在屏幕上方，迟迟没有按下"
+    },
+    "space": {
+      "type": "string",
+      "required": true,
+      "desc": "可识别的具体空间类型，不要写“在里面”“在门口”",
+      "bad": "在街上",
+      "good": "南方城市暴雨夜的窄巷口，两侧旧楼、零星霓虹招牌"
+    },
+    "light": {
+      "type": "object",
+      "required": true,
+      "subfields": ["source", "direction", "lights_what"],
+      "desc": "谁照亮谁。source 必须是唯一主光源；direction 必须写光从哪照向哪",
+      "trap": "写“屏幕是唯一强光源”却不写朝向，等于强制屏幕对准镜头——人物就看不到屏幕了"
+    },
+    "camera": {
+      "type": "object",
+      "required": true,
+      "subfields": ["mount", "height", "lens"],
+      "desc": "机位来源（固定/手持/推轨）、高度、焦段。缺 mount 模型会自由环绕",
+      "trap": "只写“镜头固定”不足以约束载具运动镜，仍需显式排除环绕"
+    },
+    "proportions": {
+      "type": "object",
+      "required": true,
+      "subfields": ["head_ratio", "shoulder_width", "neck", "note"],
+      "desc": "人体比例。必须给量化倍率，不能写“写实比例”",
+      "trap": "缺这一项时实测出现肩宽 1.64 头高、颈长 0.36 头高（成人常态 1.7–1.8 / 0.2–0.28）"
+    },
+    "weather": {
+      "type": "object",
+      "required": true,
+      "subfields": ["type", "ongoing_evidence"],
+      "desc": "天气必须写成**正在发生**，并给出画面可见证据",
+      "trap": "写“被雨打湿”是完成态，模型会理解成雨已停——首版 S3/S4 就是这么丢掉雨的"
+    },
+    "props": {
+      "type": "array",
+      "required": true,
+      "item": ["name", "held_by", "facing", "in_frame"],
+      "desc": "每件道具：由哪个部位持有、朝向谁、是否入画",
+      "trap": "任何屏幕/镜面类道具，facing 必须显式写，否则默认朝镜头"
+    },
+    "hands": {
+      "type": "object",
+      "required": true,
+      "subfields": ["visible_count", "which", "other_limb"],
+      "desc": "入画手数、是哪只手、另一条手臂在哪",
+      "hard_rule": "visible_count 必须为 1。两手持物是本项目确定性失败构图（2/2 失败：多一根手指 / 两只右手）"
+    },
+    "text_policy": {
+      "type": "string",
+      "required": true,
+      "desc": "画面内文字的处理方式。正确写法是“屏幕只呈现抽象光斑与模糊 UI，不可读”",
+      "trap": "把“订单上写着她的名字”直接翻译成“屏幕上显示‘林夏’”，等于让模型画中文，必乱码"
+    },
+    "negatives": {
+      "type": "array",
+      "required": true,
+      "desc": "针对性风险项。禁止在此点名“泪水/车牌”等可画实物——否定会反向强化"
+    }
+  },
+
+  "composition_rules": [
+    {
+      "id": "R1",
+      "rule": "一镜一手：单镜只允许一个持物动作，visible_count 恒为 1",
+      "evidence": "S1 连续两次结构崩坏（v1 多一根朝上的手指，v2 两只右手）"
+    },
+    {
+      "id": "R2",
+      "rule": "一镜一动作：不在同一镜内安排两个以上的动作阶段",
+      "evidence": "通用"
+    },
+    {
+      "id": "R3",
+      "rule": "面部大特写不承载复杂信息：需要表达情绪时优先改手部/局部/道具同框",
+      "evidence": "S4 大特写一致率 0.700（唯一不可用镜），且被模型自动加上泪痕"
+    },
+    {
+      "id": "R4",
+      "rule": "不用否定词修可画实物，改机位或改构图",
+      "evidence": "写“不得流泪”后泪痕变两道粗泪柱；写“没有车牌”后车牌出现可读拉丁字符"
+    },
+    {
+      "id": "R5",
+      "rule": "载具运动镜必须显式排除环绕",
+      "evidence": "S3 首帧与关键帧差 9.5，但 4 秒内机位绕到车正后方"
+    }
+  ],
+
+  "open_gap": "横测中 5 个模型在 C4（单手构图）上全部失败：即使 schema 明写 visible_count=1，它们仍会把第二只手/臂安排进画面。**构图减法必须由模板和规则层执行，不能指望模型自觉**——这是目前唯一没有任何模型能自动满足的项。"
+}

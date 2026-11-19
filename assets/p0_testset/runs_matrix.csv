@@ -1,0 +1,43 @@
+﻿run_id,sku,task,model,provider,params_json,unit_cost_usd,out_path,fidelity_score,usable,critical_fail,note
+CR-MATTE-05__T1__baseline,CR-MATTE-05,T1_white_pack,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+CR-MATTE-05__T1__qwen30,CR-MATTE-05,T1_white_pack,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": null}",0.025,runs/CR-MATTE-05__T1__qwen30/final.png,0.917,Y,N,合成后 0.652/0.150 左右对称
+CR-MATTE-05__T1__qwen30__s20261117,CR-MATTE-05,T1,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": ""20261117""}",0.025,runs/CR-MATTE-05__T1__qwen30__s20261117/final.png,0.917,Y,N,合成后 0.652/0.150 左右对称
+CR-MATTE-05__T1__qwen30__s20261118,CR-MATTE-05,T1,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": ""20261118""}",0.025,runs/CR-MATTE-05__T1__qwen30__s20261118/final.png,0.917,Y,N,合成后 0.652/0.150 左右对称
+CR-MATTE-05__T2__baseline,CR-MATTE-05,T2_scene,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+CR-MATTE-05__T2__qwen30,CR-MATTE-05,T2_scene,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+CR-MATTE-05__T3__baseline,CR-MATTE-05,T3_local_edit,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+CR-MATTE-05__T3__qwen30,CR-MATTE-05,T3_local_edit,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+DR-NAVY-02__T1__baseline,DR-NAVY-02,T1_white_pack,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+DR-NAVY-02__T1__qwen30,DR-NAVY-02,T1_white_pack,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": null}",0.025,runs/DR-NAVY-02__T1__qwen30/final.png,0.825,N,N,合成后 0.652/0.150 左右对称
+DR-NAVY-02__T1__qwen30__s20261117,DR-NAVY-02,T1,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": ""20261117""}",0.025,runs/DR-NAVY-02__T1__qwen30__s20261117/final.png,0.825,N,N,合成后 0.652/0.150 左右对称
+DR-NAVY-02__T1__qwen30__s20261118,DR-NAVY-02,T1,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": ""20261118""}",0.025,runs/DR-NAVY-02__T1__qwen30__s20261118/final.png,0.850,Y,N,合成后 0.651/0.151 左右对称
+DR-NAVY-02__T2__baseline,DR-NAVY-02,T2_scene,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+DR-NAVY-02__T2__qwen30,DR-NAVY-02,T2_scene,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+DR-NAVY-02__T3__baseline,DR-NAVY-02,T3_local_edit,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+DR-NAVY-02__T3__qwen30,DR-NAVY-02,T3_local_edit,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+JK-ORANGE-03__T1__baseline,JK-ORANGE-03,T1_white_pack,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+JK-ORANGE-03__T1__qwen30,JK-ORANGE-03,T1_white_pack,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": null}",0.025,runs/JK-ORANGE-03__T1__qwen30/final.png,1.000,Y,N,合成后 0.652/0.150 左右对称
+JK-ORANGE-03__T1__qwen30__s20261117,JK-ORANGE-03,T1,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": ""20261117""}",0.025,runs/JK-ORANGE-03__T1__qwen30__s20261117/final.png,1.000,Y,N,合成后 0.652/0.150 左右对称
+JK-ORANGE-03__T1__qwen30__s20261118,JK-ORANGE-03,T1,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": ""20261118""}",0.025,runs/JK-ORANGE-03__T1__qwen30__s20261118/final.png,0.921,Y,N,合成后 0.652/0.150 左右对称
+JK-ORANGE-03__T2__baseline,JK-ORANGE-03,T2_scene,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+JK-ORANGE-03__T2__qwen30,JK-ORANGE-03,T2_scene,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+JK-ORANGE-03__T3__baseline,JK-ORANGE-03,T3_local_edit,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+JK-ORANGE-03__T3__qwen30,JK-ORANGE-03,T3_local_edit,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+LS-BLACK-06__T1__baseline,LS-BLACK-06,T1_white_pack,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+LS-BLACK-06__T1__qwen30,LS-BLACK-06,T1_white_pack,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": null}",0.025,runs/LS-BLACK-06__T1__qwen30/final.png,0.917,Y,N,合成后 0.652/0.150 左右对称
+LS-BLACK-06__T2__baseline,LS-BLACK-06,T2_scene,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+LS-BLACK-06__T2__qwen30,LS-BLACK-06,T2_scene,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+LS-BLACK-06__T3__baseline,LS-BLACK-06,T3_local_edit,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+LS-BLACK-06__T3__qwen30,LS-BLACK-06,T3_local_edit,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+SR-GLASS-04__T1__baseline,SR-GLASS-04,T1_white_pack,baseline-internal-imagegen,内置生成能力,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": null}",0,SR-GLASS-04/out_T1_whitebg.png,0.700,N,Y,未做后处理；裸输出占画面约88%、顶部无安全区；关键项0分: SR-C4(五金/辅料)
+SR-GLASS-04__T1__qwen30,SR-GLASS-04,T1_white_pack,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": null}",0.025,runs/SR-GLASS-04__T1__qwen30/final.png,0.925,Y,N,裸输出约占86%；合成后 0.652/0.150/0.399:0.400
+SR-GLASS-04__T2__baseline,SR-GLASS-04,T2_scene,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+SR-GLASS-04__T2__qwen30,SR-GLASS-04,T2_scene,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+SR-GLASS-04__T3__baseline,SR-GLASS-04,T3_local_edit,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+SR-GLASS-04__T3__qwen30,SR-GLASS-04,T3_local_edit,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+TS-WHITE-01__T1__baseline,TS-WHITE-01,T1_white_pack,baseline-internal-imagegen,内置生成能力,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": null}",0,TS-WHITE-01/out_T1_whitebg.png,0.868,N,N,未做后处理；裸输出占画面约90%、顶部无安全区
+TS-WHITE-01__T1__qwen30,TS-WHITE-01,T1_white_pack,qwen-image-3.0,dashscope 北京区,"{""size"": ""1024*1024"", ""prompt_extend"": false, ""watermark"": false, ""ref_images"": 1, ""seed"": null}",0.025,runs/TS-WHITE-01__T1__qwen30/final.png,0.947,Y,N,裸输出约占93%；合成后 0.652/0.150/0.217:0.218
+TS-WHITE-01__T2__baseline,TS-WHITE-01,T2_scene,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+TS-WHITE-01__T2__qwen30,TS-WHITE-01,T2_scene,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+TS-WHITE-01__T3__baseline,TS-WHITE-01,T3_local_edit,baseline-internal-imagegen,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,
+TS-WHITE-01__T3__qwen30,TS-WHITE-01,T3_local_edit,qwen-image-3.0,,"{""size"":""TBD"",""seed"":null,""ref_images"":1}",,,,,,

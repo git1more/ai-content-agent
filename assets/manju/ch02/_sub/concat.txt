@@ -1,0 +1,3 @@
+file 'C:/Users/14480/Desktop/简历/求职工作台/10_实操速成/商品图片与漫剧生成Agent/assets/manju/ch02/_sub/S1_sub.mp4'
+file 'C:/Users/14480/Desktop/简历/求职工作台/10_实操速成/商品图片与漫剧生成Agent/assets/manju/ch02/_sub/S2_sub.mp4'
+file 'C:/Users/14480/Desktop/简历/求职工作台/10_实操速成/商品图片与漫剧生成Agent/assets/manju/ch02/_sub/S3_sub.mp4'

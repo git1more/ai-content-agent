@@ -1,0 +1,302 @@
+{
+  "ts": "2026-11-19T21:39:15",
+  "commit_note": "",
+  "suites": {
+    "lint": {
+      "config": "manju_ch04.json",
+      "passed": 19,
+      "total": 19,
+      "lint_pass_rate": 1.0
+    },
+    "cost_determinism": {
+      "rows": [
+        {
+          "key": "character|qwen-image-3.0|1image",
+          "n": 2,
+          "min": 0.18,
+          "max": 0.18,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "ecom|qwen-image-3.0|1image",
+          "n": 14,
+          "min": 0.18,
+          "max": 0.18,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "environment|qwen-image-3.0|1image",
+          "n": 2,
+          "min": 0.18,
+          "max": 0.18,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "keyframe|qwen-image-3.0|1image",
+          "n": 71,
+          "min": 0.18,
+          "max": 0.18,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "video|wan2.6-i2v-flash|3second",
+          "n": 8,
+          "min": 0.15,
+          "max": 0.15,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "video|wan2.6-i2v-flash|4second",
+          "n": 47,
+          "min": 0.15,
+          "max": 0.15,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "video|wan2.6-i2v-flash|5second",
+          "n": 4,
+          "min": 0.15,
+          "max": 0.15,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|11char",
+          "n": 1,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|12char",
+          "n": 1,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|15char",
+          "n": 2,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|16char",
+          "n": 2,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|17char",
+          "n": 1,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|18char",
+          "n": 1,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|19char",
+          "n": 1,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|20char",
+          "n": 2,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|21char",
+          "n": 2,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|22char",
+          "n": 1,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|23char",
+          "n": 1,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|26char",
+          "n": 1,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        },
+        {
+          "key": "voice|qwen3-tts-flash|9char",
+          "n": 3,
+          "min": 0.0001,
+          "max": 0.0001,
+          "dev_pct": 0.0
+        }
+      ],
+      "unit_price_dev": 0.0,
+      "violations": []
+    },
+    "judge_stability": {
+      "config": "manju_ch04.json",
+      "images": 12,
+      "rounds": 3,
+      "judge_image_agree": 1.0,
+      "judge_label_agree": 1.0,
+      "unstable_images": [],
+      "label_stability": {
+        "手的数量": 1.0,
+        "人体比例": 1.0
+      },
+      "worst_labels": [
+        {
+          "label": "手的数量",
+          "agree": 1.0
+        },
+        {
+          "label": "人体比例",
+          "agree": 1.0
+        }
+      ],
+      "detail": {
+        "S1": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 1
+        },
+        "S2": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 1
+        },
+        "S3": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 1
+        },
+        "S4": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 2
+        },
+        "S5": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 2
+        },
+        "S6": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 1
+        },
+        "S7": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 2
+        },
+        "S8": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 1
+        },
+        "S9": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 2
+        },
+        "S10": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 1
+        },
+        "S11": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 1
+        },
+        "S12": {
+          "verdict_stable": true,
+          "ok_rounds": [
+            true,
+            true,
+            true
+          ],
+          "unstable_labels": [],
+          "n_labels": 1
+        }
+      }
+    }
+  }
+}

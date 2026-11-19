@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-11-17T11:41:46+00:00",
+  "purpose": "P1/P2 换模型、改 Prompt 模板、改后处理时的退化检测基线。本文件由 scripts/p0_freeze_baseline.py 生成，不手工编辑。",
+  "frozen_scope": {
+    "task": "T1_white_pack",
+    "model": "qwen-image-3.0",
+    "provider": "dashscope 北京区",
+    "size": "1024*1024",
+    "prompt_extend": false,
+    "watermark": false,
+    "postprocess": "postprocess_canvas.py（保留全部显著连通域）",
+    "scores_file": "scores.json@v2.0"
+  },
+  "scoring": {
+    "usable_threshold": 0.85,
+    "critical_fail_vetoes": true,
+    "rubric": "critical 3 / major 2 / minor 1，按权重归一化",
+    "reference_principle": "以 ref_front.png 为地面真值。设计书描述与参考图冲突时，以参考图为准（2026-11-17 校准）。",
+    "reference_caveat": "参考图为 AI 生成，与输出同族模型风格先验接近；分数只可横向比（同参考同模型），不可外推为真实商品还原度。"
+  },
+  "sku_baseline": {
+    "JK-ORANGE-03": {
+      "run_of_record": "JK-ORANGE-03__T1__qwen30",
+      "fidelity": 1.0,
+      "usable": true,
+      "critical_fail": false,
+      "stability": "stable",
+      "stability_confidence": "multi_run",
+      "runs_usable_ratio": "3/3",
+      "image": "runs/JK-ORANGE-03__T1__qwen30/final.png",
+      "defects": [],
+      "structure": {
+        "aspect_deviation_pct": 0.7,
+        "aspect_verdict": "PASS",
+        "hue_delta_deg": 0.0,
+        "hue_verdict": "PASS"
+      },
+      "all_runs": [
+        {
+          "run_id": "JK-ORANGE-03__T1__qwen30",
+          "fidelity": 1.0,
+          "usable": true
+        },
+        {
+          "run_id": "JK-ORANGE-03__T1__qwen30__s20261117",
+          "fidelity": 1.0,
+          "usable": true
+        },
+        {
+          "run_id": "JK-ORANGE-03__T1__qwen30__s20261118",
+          "fidelity": 0.921,
+          "usable": true
+        }
+      ]
+    },
+    "TS-WHITE-01": {
+      "run_of_record": "TS-WHITE-01__T1__qwen30",
+      "fidelity": 0.947,
+      "usable": true,
+      "critical_fail": false,
+      "stability": "stable",
+      "stability_confidence": "single_run",
+      "runs_usable_ratio": "1/1",
+      "image": "runs/TS-WHITE-01__T1__qwen30/final.png",
+      "defects": [
+        "织纹略平滑（竹节肌理被压平）"
+      ],
+      "structure": {
+        "aspect_deviation_pct": -0.2,
+        "aspect_verdict": "PASS",
+        "hue_delta_deg": null,
+        "hue_verdict": "N/A"
+      },
+      "all_runs": [
+        {
+          "run_id": "TS-WHITE-01__T1__qwen30",
+          "fidelity": 0.947,
+          "usable": true
+        }
+      ]
+    },
+    "SR-GLASS-04": {
+      "run_of_record": "SR-GLASS-04__T1__qwen30",
+      "fidelity": 0.925,
+      "usable": true,
+      "critical_fail": false,
+      "stability": "stable",
+      "stability_confidence": "single_run",
+      "runs_usable_ratio": "1/1",
+      "image": "runs/SR-GLASS-04__T1__qwen30/final.png",
+      "defects": [
+        "泵头偏高大"
+      ],
+      "structure": {
+        "aspect_deviation_pct": 0.6,
+        "aspect_verdict": "PASS",
+        "hue_delta_deg": 0.0,
+        "hue_verdict": "PASS"
+      },
+      "all_runs": [
+        {
+          "run_id": "SR-GLASS-04__T1__qwen30",
+          "fidelity": 0.925,
+          "usable": true
+        }
+      ]
+    },
+    "CR-MATTE-05": {
+      "run_of_record": "CR-MATTE-05__T1__qwen30",
+      "fidelity": 0.917,
+      "usable": true,
+      "critical_fail": false,
+      "stability": "stable",
+      "stability_confidence": "multi_run",
+      "runs_usable_ratio": "3/3",
+      "image": "runs/CR-MATTE-05__T1__qwen30/final.png",
+      "defects": [
+        "材质层次（哑光罐身缺乏细腻转折）"
+      ],
+      "structure": {
+        "aspect_deviation_pct": 3.9,
+        "aspect_verdict": "PASS",
+        "hue_delta_deg": 2.0,
+        "hue_verdict": "PASS"
+      },
+      "all_runs": [
+        {
+          "run_id": "CR-MATTE-05__T1__qwen30",
+          "fidelity": 0.917,
+          "usable": true
+        },
+        {
+          "run_id": "CR-MATTE-05__T1__qwen30__s20261117",
+          "fidelity": 0.917,
+          "usable": true
+        },
+        {
+          "run_id": "CR-MATTE-05__T1__qwen30__s20261118",
+          "fidelity": 0.917,
+          "usable": true
+        }
+      ]
+    },
+    "LS-BLACK-06": {
+      "run_of_record": "LS-BLACK-06__T1__qwen30",
+      "fidelity": 0.917,
+      "usable": true,
+      "critical_fail": false,
+      "stability": "stable",
+      "stability_confidence": "single_run",
+      "runs_usable_ratio": "1/1",
+      "image": "runs/LS-BLACK-06__T1__qwen30/final.png",
+      "defects": [
+        "膏体旋出高度 +9.9%"
+      ],
+      "structure": {
+        "aspect_deviation_pct": 2.8,
+        "aspect_verdict": "PASS",
+        "hue_delta_deg": 4.0,
+        "hue_verdict": "PARTIAL"
+      },
+      "all_runs": [
+        {
+          "run_id": "LS-BLACK-06__T1__qwen30",
+          "fidelity": 0.917,
+          "usable": true
+        }
+      ]
+    },
+    "DR-NAVY-02": {
+      "run_of_record": "DR-NAVY-02__T1__qwen30__s20261118",
+      "fidelity": 0.85,
+      "usable": true,
+      "critical_fail": false,
+      "stability": "borderline",
+      "stability_confidence": "multi_run",
+      "runs_usable_ratio": "1/3",
+      "image": "runs/DR-NAVY-02__T1__qwen30__s20261118/final.png",
+      "defects": [
+        "色相偏移 8°",
+        "裙摆外扩（h/w −7%）",
+        "材质偏哑"
+      ],
+      "structure": {
+        "aspect_deviation_pct": -16.5,
+        "aspect_verdict": "FAIL",
+        "hue_delta_deg": 4.0,
+        "hue_verdict": "PARTIAL"
+      },
+      "all_runs": [
+        {
+          "run_id": "DR-NAVY-02__T1__qwen30",
+          "fidelity": 0.825,
+          "usable": false
+        },
+        {
+          "run_id": "DR-NAVY-02__T1__qwen30__s20261117",
+          "fidelity": 0.825,
+          "usable": false
+        },
+        {
+          "run_id": "DR-NAVY-02__T1__qwen30__s20261118",
+          "fidelity": 0.85,
+          "usable": true
+        }
+      ]
+    }
+  },
+  "aggregate": {
+    "sku_total": 6,
+    "sku_stable": 5,
+    "sku_borderline": 1,
+    "stable_pass_rate": 0.8333,
+    "mean_fidelity": 0.926,
+    "runs_scored": 12,
+    "runs_usable": 10,
+    "note": "通过率按「稳定可用」计（所有运行均过线）。连衣裙 3 次中 1 次过线，记为 borderline，不计入通过率——否则等于拿最好的一次当基线。"
+  },
+  "cost_ledger": {
+    "calls_logged": 14,
+    "cost_cny": 2.52
+  },
+  "known_gaps": [
+    "T2 场景图、T3 局部编辑两条任务线未跑（runs_matrix 中为占位行）",
+    "文字 / Logo 保真未单独度量，是电商图唯一「一眼废」的硬伤",
+    "无真实手机拍摄素材，绝对保真度不可外推"
+  ],
+  "explicitly_stopped": [
+    "连衣裙继续刷 seed（s20261118 已达 0.850，继续投入边际收益趋零）",
+    "面霜罐「材质层次」单独攻关（归入「材质表现」品类级课题）",
+    "逐 SKU 四法交叉几何精测（降级为换模型时的抽样体检）"
+  ]
+}

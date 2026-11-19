@@ -1,0 +1,208 @@
+{
+  "sku": "TS-WHITE-01",
+  "name": "白色纯棉圆领T恤",
+  "profile": "服饰",
+  "category": "服饰",
+  "slots": 12,
+  "generated": 12,
+  "passed": 12,
+  "pass_rate": 1.0,
+  "cost_cny": 0.18,
+  "elapsed_s": 2.3,
+  "seconds_per_image": 2.3,
+  "rows": [
+    {
+      "id": "D1",
+      "group": "详情",
+      "label": "材质纹理",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\D1_材质纹理.png",
+      "check": {
+        "ok": true,
+        "intact": false,
+        "text": false,
+        "scale_ratio": 1.0,
+        "height_ratio": 1.0,
+        "area_ratio": 1.0,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "D2",
+      "group": "详情",
+      "label": "工艺细节",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\D2_工艺细节.png",
+      "check": {
+        "ok": true,
+        "intact": false,
+        "text": false,
+        "scale_ratio": 0.993,
+        "height_ratio": 0.993,
+        "area_ratio": 0.96,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "D3",
+      "group": "详情",
+      "label": "形态比例",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\D3_形态比例.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": false,
+        "scale_ratio": 0.75,
+        "height_ratio": 0.75,
+        "area_ratio": 0.536,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "D4",
+      "group": "详情",
+      "label": "配色细节",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\D4_配色细节.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": false,
+        "scale_ratio": 0.75,
+        "height_ratio": 0.75,
+        "area_ratio": 0.459,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "M1",
+      "group": "主图",
+      "label": "正面全貌",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\M1_正面全貌.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": false,
+        "scale_ratio": 0.699,
+        "height_ratio": 0.699,
+        "area_ratio": 0.425,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "M2",
+      "group": "主图",
+      "label": "45度视角",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\M2_45度视角.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": false,
+        "scale_ratio": 0.7,
+        "height_ratio": 0.7,
+        "area_ratio": 0.425,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "M3",
+      "group": "主图",
+      "label": "背面与反侧",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\M3_背面与反侧.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": false,
+        "scale_ratio": 0.7,
+        "height_ratio": 0.7,
+        "area_ratio": 0.435,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "M4",
+      "group": "主图",
+      "label": "关键部位特写",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\M4_关键部位特写.png",
+      "check": {
+        "ok": true,
+        "intact": false,
+        "text": false,
+        "scale_ratio": 0.7,
+        "height_ratio": 0.7,
+        "area_ratio": 0.345,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "M5",
+      "group": "主图",
+      "label": "整体平视",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\M5_整体平视.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": false,
+        "scale_ratio": 0.7,
+        "height_ratio": 0.7,
+        "area_ratio": 0.424,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "S1",
+      "group": "场景",
+      "label": "室内生活场景",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\S1_室内生活场景.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": false,
+        "scale_ratio": 1.0,
+        "height_ratio": 1.0,
+        "area_ratio": 1.0,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "S2",
+      "group": "场景",
+      "label": "户外场景",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\S2_户外场景.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": false,
+        "scale_ratio": 1.0,
+        "height_ratio": 1.0,
+        "area_ratio": 1.0,
+        "fails": [],
+        "warns": []
+      }
+    },
+    {
+      "id": "S3",
+      "group": "场景",
+      "label": "使用中",
+      "path": "assets\\ecom_set\\TS-WHITE-01\\S3_使用中.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": false,
+        "scale_ratio": 1.0,
+        "height_ratio": 1.0,
+        "area_ratio": 0.961,
+        "fails": [],
+        "warns": []
+      }
+    }
+  ],
+  "excluded": []
+}

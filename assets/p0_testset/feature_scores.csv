@@ -1,0 +1,323 @@
+﻿run_id,sku,task,model,feature_id,feature_name,weight,score,evidence
+CR-MATTE-05__T1__baseline,CR-MATTE-05,T1_white_pack,baseline-internal-imagegen,CR-C0,整体结构,3,,
+CR-MATTE-05__T1__baseline,CR-MATTE-05,T1_white_pack,baseline-internal-imagegen,CR-C1,结构,3,,
+CR-MATTE-05__T1__baseline,CR-MATTE-05,T1_white_pack,baseline-internal-imagegen,CR-C2,材质,3,,
+CR-MATTE-05__T1__baseline,CR-MATTE-05,T1_white_pack,baseline-internal-imagegen,CR-C3,五金/辅料,3,,
+CR-MATTE-05__T1__baseline,CR-MATTE-05,T1_white_pack,baseline-internal-imagegen,CR-C4,图案,2,,
+CR-MATTE-05__T1__baseline,CR-MATTE-05,T1_white_pack,baseline-internal-imagegen,CR-C5,文字,3,,
+CR-MATTE-05__T1__baseline,CR-MATTE-05,T1_white_pack,baseline-internal-imagegen,CR-C6,光影,1,,
+CR-MATTE-05__T1__qwen30,CR-MATTE-05,T1_white_pack,qwen-image-3.0,CR-C0,整体结构,3,1.0,罐身与罐盖同心，接缝闭合，底面为平面
+CR-MATTE-05__T1__qwen30,CR-MATTE-05,T1_white_pack,qwen-image-3.0,CR-C1,结构,3,1.0,网格标定参考 h/w≈0.94、输出≈0.97，偏差 +3.5%，在 ±5% 容差内（原判 +17% 系手工基准误设）
+CR-MATTE-05__T1__qwen30,CR-MATTE-05,T1_white_pack,qwen-image-3.0,CR-C2,材质,3,0.5,表面偏磨砂塑料感，缺少参考图的半透明玻璃内部乳霜轮廓
+CR-MATTE-05__T1__qwen30,CR-MATTE-05,T1_white_pack,qwen-image-3.0,CR-C3,五金/辅料,3,1.0,金色段高 51px/罐高 365px=14.0%，参考 49/342=14.3%，偏差 -2.1%
+CR-MATTE-05__T1__qwen30,CR-MATTE-05,T1_white_pack,qwen-image-3.0,CR-C4,图案,2,1.0,顶面压印 logo 存在，与参考图同样极浅
+CR-MATTE-05__T1__qwen30,CR-MATTE-05,T1_white_pack,qwen-image-3.0,CR-C5,文字,3,1.0,罐身文字逐字正确：HYDRA CREAM
+CR-MATTE-05__T1__qwen30,CR-MATTE-05,T1_white_pack,qwen-image-3.0,CR-C6,光影,1,1.0,底部接触阴影方向与主光一致
+CR-MATTE-05__T1__qwen30__s20261117,CR-MATTE-05,T1,qwen-image-3.0,CR-C0,整体结构,3,1.0,罐体同心，接缝闭合
+CR-MATTE-05__T1__qwen30__s20261117,CR-MATTE-05,T1,qwen-image-3.0,CR-C1,结构,3,1.0,网格标定参考 h/w≈0.94、输出≈0.97，偏差 +3.5%，在 ±5% 容差内（原判 +17% 系手工基准误设）
+CR-MATTE-05__T1__qwen30__s20261117,CR-MATTE-05,T1,qwen-image-3.0,CR-C2,材质,3,0.5,偏塑料感，缺少半透明玻璃层次
+CR-MATTE-05__T1__qwen30__s20261117,CR-MATTE-05,T1,qwen-image-3.0,CR-C3,五金/辅料,3,1.0,金色段高 51px/罐高 365px=14.0%，参考 49/342=14.3%，偏差 -2.1%
+CR-MATTE-05__T1__qwen30__s20261117,CR-MATTE-05,T1,qwen-image-3.0,CR-C4,图案,2,1.0,顶面压印 logo 与参考图同样极浅
+CR-MATTE-05__T1__qwen30__s20261117,CR-MATTE-05,T1,qwen-image-3.0,CR-C5,文字,3,1.0,HYDRA CREAM 逐字正确
+CR-MATTE-05__T1__qwen30__s20261117,CR-MATTE-05,T1,qwen-image-3.0,CR-C6,光影,1,1.0,接触阴影自然
+CR-MATTE-05__T1__qwen30__s20261118,CR-MATTE-05,T1,qwen-image-3.0,CR-C0,整体结构,3,1.0,罐体同心，接缝闭合
+CR-MATTE-05__T1__qwen30__s20261118,CR-MATTE-05,T1,qwen-image-3.0,CR-C1,结构,3,1.0,网格标定参考 h/w≈0.94、输出≈0.97，偏差 +3.5%，在 ±5% 容差内（原判 +17% 系手工基准误设）
+CR-MATTE-05__T1__qwen30__s20261118,CR-MATTE-05,T1,qwen-image-3.0,CR-C2,材质,3,0.5,偏塑料感，缺少半透明玻璃层次
+CR-MATTE-05__T1__qwen30__s20261118,CR-MATTE-05,T1,qwen-image-3.0,CR-C3,五金/辅料,3,1.0,金色段高 51px/罐高 365px=14.0%，参考 49/342=14.3%，偏差 -2.1%
+CR-MATTE-05__T1__qwen30__s20261118,CR-MATTE-05,T1,qwen-image-3.0,CR-C4,图案,2,1.0,顶面压印 logo 清晰，与参考图同形
+CR-MATTE-05__T1__qwen30__s20261118,CR-MATTE-05,T1,qwen-image-3.0,CR-C5,文字,3,1.0,HYDRA CREAM 逐字正确
+CR-MATTE-05__T1__qwen30__s20261118,CR-MATTE-05,T1,qwen-image-3.0,CR-C6,光影,1,1.0,接触阴影自然
+CR-MATTE-05__T2__baseline,CR-MATTE-05,T2_scene,baseline-internal-imagegen,CR-C0,整体结构,3,,
+CR-MATTE-05__T2__baseline,CR-MATTE-05,T2_scene,baseline-internal-imagegen,CR-C1,结构,3,,
+CR-MATTE-05__T2__baseline,CR-MATTE-05,T2_scene,baseline-internal-imagegen,CR-C2,材质,3,,
+CR-MATTE-05__T2__baseline,CR-MATTE-05,T2_scene,baseline-internal-imagegen,CR-C3,五金/辅料,3,,
+CR-MATTE-05__T2__baseline,CR-MATTE-05,T2_scene,baseline-internal-imagegen,CR-C4,图案,2,,
+CR-MATTE-05__T2__baseline,CR-MATTE-05,T2_scene,baseline-internal-imagegen,CR-C5,文字,3,,
+CR-MATTE-05__T2__baseline,CR-MATTE-05,T2_scene,baseline-internal-imagegen,CR-C6,光影,1,,
+CR-MATTE-05__T2__qwen30,CR-MATTE-05,T2_scene,qwen-image-3.0,CR-C0,整体结构,3,,
+CR-MATTE-05__T2__qwen30,CR-MATTE-05,T2_scene,qwen-image-3.0,CR-C1,结构,3,,
+CR-MATTE-05__T2__qwen30,CR-MATTE-05,T2_scene,qwen-image-3.0,CR-C2,材质,3,,
+CR-MATTE-05__T2__qwen30,CR-MATTE-05,T2_scene,qwen-image-3.0,CR-C3,五金/辅料,3,,
+CR-MATTE-05__T2__qwen30,CR-MATTE-05,T2_scene,qwen-image-3.0,CR-C4,图案,2,,
+CR-MATTE-05__T2__qwen30,CR-MATTE-05,T2_scene,qwen-image-3.0,CR-C5,文字,3,,
+CR-MATTE-05__T2__qwen30,CR-MATTE-05,T2_scene,qwen-image-3.0,CR-C6,光影,1,,
+CR-MATTE-05__T3__baseline,CR-MATTE-05,T3_local_edit,baseline-internal-imagegen,CR-C0,整体结构,3,,
+CR-MATTE-05__T3__baseline,CR-MATTE-05,T3_local_edit,baseline-internal-imagegen,CR-C1,结构,3,,
+CR-MATTE-05__T3__baseline,CR-MATTE-05,T3_local_edit,baseline-internal-imagegen,CR-C2,材质,3,,
+CR-MATTE-05__T3__baseline,CR-MATTE-05,T3_local_edit,baseline-internal-imagegen,CR-C3,五金/辅料,3,,
+CR-MATTE-05__T3__baseline,CR-MATTE-05,T3_local_edit,baseline-internal-imagegen,CR-C4,图案,2,,
+CR-MATTE-05__T3__baseline,CR-MATTE-05,T3_local_edit,baseline-internal-imagegen,CR-C5,文字,3,,
+CR-MATTE-05__T3__baseline,CR-MATTE-05,T3_local_edit,baseline-internal-imagegen,CR-C6,光影,1,,
+CR-MATTE-05__T3__qwen30,CR-MATTE-05,T3_local_edit,qwen-image-3.0,CR-C0,整体结构,3,,
+CR-MATTE-05__T3__qwen30,CR-MATTE-05,T3_local_edit,qwen-image-3.0,CR-C1,结构,3,,
+CR-MATTE-05__T3__qwen30,CR-MATTE-05,T3_local_edit,qwen-image-3.0,CR-C2,材质,3,,
+CR-MATTE-05__T3__qwen30,CR-MATTE-05,T3_local_edit,qwen-image-3.0,CR-C3,五金/辅料,3,,
+CR-MATTE-05__T3__qwen30,CR-MATTE-05,T3_local_edit,qwen-image-3.0,CR-C4,图案,2,,
+CR-MATTE-05__T3__qwen30,CR-MATTE-05,T3_local_edit,qwen-image-3.0,CR-C5,文字,3,,
+CR-MATTE-05__T3__qwen30,CR-MATTE-05,T3_local_edit,qwen-image-3.0,CR-C6,光影,1,,
+DR-NAVY-02__T1__baseline,DR-NAVY-02,T1_white_pack,baseline-internal-imagegen,DR-C0,整体结构,3,,
+DR-NAVY-02__T1__baseline,DR-NAVY-02,T1_white_pack,baseline-internal-imagegen,DR-C1,颜色,3,,
+DR-NAVY-02__T1__baseline,DR-NAVY-02,T1_white_pack,baseline-internal-imagegen,DR-C2,结构,3,,
+DR-NAVY-02__T1__baseline,DR-NAVY-02,T1_white_pack,baseline-internal-imagegen,DR-C3,结构,3,,
+DR-NAVY-02__T1__baseline,DR-NAVY-02,T1_white_pack,baseline-internal-imagegen,DR-C4,五金/辅料,3,,
+DR-NAVY-02__T1__baseline,DR-NAVY-02,T1_white_pack,baseline-internal-imagegen,DR-C5,结构,2,,
+DR-NAVY-02__T1__baseline,DR-NAVY-02,T1_white_pack,baseline-internal-imagegen,DR-C6,材质,2,,
+DR-NAVY-02__T1__baseline,DR-NAVY-02,T1_white_pack,baseline-internal-imagegen,DR-C7,文字,1,,
+DR-NAVY-02__T1__qwen30,DR-NAVY-02,T1_white_pack,qwen-image-3.0,DR-C0,整体结构,3,1.0,裙装结构成立：无袖、V领、腰节线、A字摆，与参考图一致
+DR-NAVY-02__T1__qwen30,DR-NAVY-02,T1_white_pack,qwen-image-3.0,DR-C1,颜色,3,0.5,色相偏差 8.0°，输出略偏深蓝黑
+DR-NAVY-02__T1__qwen30,DR-NAVY-02,T1_white_pack,qwen-image-3.0,DR-C2,结构,3,1.0,V 领深度与开口宽度与参考图一致（参考图本身即深V宽口，初轮判为过宽过深属误判）
+DR-NAVY-02__T1__qwen30,DR-NAVY-02,T1_white_pack,qwen-image-3.0,DR-C3,结构,3,1.0,自然腰位有清晰的横向腰节分割缝
+DR-NAVY-02__T1__qwen30,DR-NAVY-02,T1_white_pack,qwen-image-3.0,DR-C4,五金/辅料,3,1.0,5 颗深色树脂小圆扣，与参考图数量与样式一致（初轮误判为「6 颗、应为同色包扣」）
+DR-NAVY-02__T1__qwen30,DR-NAVY-02,T1_white_pack,qwen-image-3.0,DR-C5,结构,2,0.5,裙摆外扩大于参考图，h/w 偏差 -7.2%
+DR-NAVY-02__T1__qwen30,DR-NAVY-02,T1_white_pack,qwen-image-3.0,DR-C6,材质,2,0.5,参考图为带光泽的皱感梭织，输出偏哑光棉感
+DR-NAVY-02__T1__qwen30,DR-NAVY-02,T1_white_pack,qwen-image-3.0,DR-C7,文字,1,1.0,无文字
+DR-NAVY-02__T1__qwen30__s20261117,DR-NAVY-02,T1,qwen-image-3.0,DR-C0,整体结构,3,1.0,裙装结构成立，与参考图一致
+DR-NAVY-02__T1__qwen30__s20261117,DR-NAVY-02,T1,qwen-image-3.0,DR-C1,颜色,3,0.5,色相偏差 10.0°，偏深蓝
+DR-NAVY-02__T1__qwen30__s20261117,DR-NAVY-02,T1,qwen-image-3.0,DR-C2,结构,3,1.0,V 领深度与开口宽度与参考图一致
+DR-NAVY-02__T1__qwen30__s20261117,DR-NAVY-02,T1,qwen-image-3.0,DR-C3,结构,3,1.0,腰节分割缝清晰
+DR-NAVY-02__T1__qwen30__s20261117,DR-NAVY-02,T1,qwen-image-3.0,DR-C4,五金/辅料,3,1.0,5 颗深色小圆扣，与参考图一致
+DR-NAVY-02__T1__qwen30__s20261117,DR-NAVY-02,T1,qwen-image-3.0,DR-C5,结构,2,0.5,裙摆外扩偏大，h/w 偏差 -9.9%
+DR-NAVY-02__T1__qwen30__s20261117,DR-NAVY-02,T1,qwen-image-3.0,DR-C6,材质,2,0.5,偏哑光棉感，缺少参考图的光泽皱感
+DR-NAVY-02__T1__qwen30__s20261117,DR-NAVY-02,T1,qwen-image-3.0,DR-C7,文字,1,1.0,无文字
+DR-NAVY-02__T1__qwen30__s20261118,DR-NAVY-02,T1,qwen-image-3.0,DR-C0,整体结构,3,1.0,裙装结构成立，与参考图一致
+DR-NAVY-02__T1__qwen30__s20261118,DR-NAVY-02,T1,qwen-image-3.0,DR-C1,颜色,3,1.0,色相偏差 4.0°，与参考图基本同色
+DR-NAVY-02__T1__qwen30__s20261118,DR-NAVY-02,T1,qwen-image-3.0,DR-C2,结构,3,1.0,V 领深度与开口宽度与参考图一致
+DR-NAVY-02__T1__qwen30__s20261118,DR-NAVY-02,T1,qwen-image-3.0,DR-C3,结构,3,1.0,腰节分割缝清晰
+DR-NAVY-02__T1__qwen30__s20261118,DR-NAVY-02,T1,qwen-image-3.0,DR-C4,五金/辅料,3,1.0,5 颗深色小圆扣，与参考图一致
+DR-NAVY-02__T1__qwen30__s20261118,DR-NAVY-02,T1,qwen-image-3.0,DR-C5,结构,2,0.0,裙摆明显更宽，h/w 偏差 -16.5%，超出 12% 阈值
+DR-NAVY-02__T1__qwen30__s20261118,DR-NAVY-02,T1,qwen-image-3.0,DR-C6,材质,2,0.5,偏哑光棉感，缺少参考图的光泽皱感
+DR-NAVY-02__T1__qwen30__s20261118,DR-NAVY-02,T1,qwen-image-3.0,DR-C7,文字,1,1.0,无文字
+DR-NAVY-02__T2__baseline,DR-NAVY-02,T2_scene,baseline-internal-imagegen,DR-C0,整体结构,3,,
+DR-NAVY-02__T2__baseline,DR-NAVY-02,T2_scene,baseline-internal-imagegen,DR-C1,颜色,3,,
+DR-NAVY-02__T2__baseline,DR-NAVY-02,T2_scene,baseline-internal-imagegen,DR-C2,结构,3,,
+DR-NAVY-02__T2__baseline,DR-NAVY-02,T2_scene,baseline-internal-imagegen,DR-C3,结构,3,,
+DR-NAVY-02__T2__baseline,DR-NAVY-02,T2_scene,baseline-internal-imagegen,DR-C4,五金/辅料,3,,
+DR-NAVY-02__T2__baseline,DR-NAVY-02,T2_scene,baseline-internal-imagegen,DR-C5,结构,2,,
+DR-NAVY-02__T2__baseline,DR-NAVY-02,T2_scene,baseline-internal-imagegen,DR-C6,材质,2,,
+DR-NAVY-02__T2__baseline,DR-NAVY-02,T2_scene,baseline-internal-imagegen,DR-C7,文字,1,,
+DR-NAVY-02__T2__qwen30,DR-NAVY-02,T2_scene,qwen-image-3.0,DR-C0,整体结构,3,,
+DR-NAVY-02__T2__qwen30,DR-NAVY-02,T2_scene,qwen-image-3.0,DR-C1,颜色,3,,
+DR-NAVY-02__T2__qwen30,DR-NAVY-02,T2_scene,qwen-image-3.0,DR-C2,结构,3,,
+DR-NAVY-02__T2__qwen30,DR-NAVY-02,T2_scene,qwen-image-3.0,DR-C3,结构,3,,
+DR-NAVY-02__T2__qwen30,DR-NAVY-02,T2_scene,qwen-image-3.0,DR-C4,五金/辅料,3,,
+DR-NAVY-02__T2__qwen30,DR-NAVY-02,T2_scene,qwen-image-3.0,DR-C5,结构,2,,
+DR-NAVY-02__T2__qwen30,DR-NAVY-02,T2_scene,qwen-image-3.0,DR-C6,材质,2,,
+DR-NAVY-02__T2__qwen30,DR-NAVY-02,T2_scene,qwen-image-3.0,DR-C7,文字,1,,
+DR-NAVY-02__T3__baseline,DR-NAVY-02,T3_local_edit,baseline-internal-imagegen,DR-C0,整体结构,3,,
+DR-NAVY-02__T3__baseline,DR-NAVY-02,T3_local_edit,baseline-internal-imagegen,DR-C1,颜色,3,,
+DR-NAVY-02__T3__baseline,DR-NAVY-02,T3_local_edit,baseline-internal-imagegen,DR-C2,结构,3,,
+DR-NAVY-02__T3__baseline,DR-NAVY-02,T3_local_edit,baseline-internal-imagegen,DR-C3,结构,3,,
+DR-NAVY-02__T3__baseline,DR-NAVY-02,T3_local_edit,baseline-internal-imagegen,DR-C4,五金/辅料,3,,
+DR-NAVY-02__T3__baseline,DR-NAVY-02,T3_local_edit,baseline-internal-imagegen,DR-C5,结构,2,,
+DR-NAVY-02__T3__baseline,DR-NAVY-02,T3_local_edit,baseline-internal-imagegen,DR-C6,材质,2,,
+DR-NAVY-02__T3__baseline,DR-NAVY-02,T3_local_edit,baseline-internal-imagegen,DR-C7,文字,1,,
+DR-NAVY-02__T3__qwen30,DR-NAVY-02,T3_local_edit,qwen-image-3.0,DR-C0,整体结构,3,,
+DR-NAVY-02__T3__qwen30,DR-NAVY-02,T3_local_edit,qwen-image-3.0,DR-C1,颜色,3,,
+DR-NAVY-02__T3__qwen30,DR-NAVY-02,T3_local_edit,qwen-image-3.0,DR-C2,结构,3,,
+DR-NAVY-02__T3__qwen30,DR-NAVY-02,T3_local_edit,qwen-image-3.0,DR-C3,结构,3,,
+DR-NAVY-02__T3__qwen30,DR-NAVY-02,T3_local_edit,qwen-image-3.0,DR-C4,五金/辅料,3,,
+DR-NAVY-02__T3__qwen30,DR-NAVY-02,T3_local_edit,qwen-image-3.0,DR-C5,结构,2,,
+DR-NAVY-02__T3__qwen30,DR-NAVY-02,T3_local_edit,qwen-image-3.0,DR-C6,材质,2,,
+DR-NAVY-02__T3__qwen30,DR-NAVY-02,T3_local_edit,qwen-image-3.0,DR-C7,文字,1,,
+JK-ORANGE-03__T1__baseline,JK-ORANGE-03,T1_white_pack,baseline-internal-imagegen,JK-C0,整体结构,3,,
+JK-ORANGE-03__T1__baseline,JK-ORANGE-03,T1_white_pack,baseline-internal-imagegen,JK-C1,颜色,3,,
+JK-ORANGE-03__T1__baseline,JK-ORANGE-03,T1_white_pack,baseline-internal-imagegen,JK-C2,结构,3,,
+JK-ORANGE-03__T1__baseline,JK-ORANGE-03,T1_white_pack,baseline-internal-imagegen,JK-C3,结构,3,,
+JK-ORANGE-03__T1__baseline,JK-ORANGE-03,T1_white_pack,baseline-internal-imagegen,JK-C4,五金/辅料,2,,
+JK-ORANGE-03__T1__baseline,JK-ORANGE-03,T1_white_pack,baseline-internal-imagegen,JK-C5,图案,2,,
+JK-ORANGE-03__T1__baseline,JK-ORANGE-03,T1_white_pack,baseline-internal-imagegen,JK-C6,结构,1,,
+JK-ORANGE-03__T1__baseline,JK-ORANGE-03,T1_white_pack,baseline-internal-imagegen,JK-C7,材质,2,,
+JK-ORANGE-03__T1__qwen30,JK-ORANGE-03,T1_white_pack,qwen-image-3.0,JK-C0,整体结构,3,1.0,外套结构成立；袖管空心下垂为隐形人台标准形态，与参考图一致
+JK-ORANGE-03__T1__qwen30,JK-ORANGE-03,T1_white_pack,qwen-image-3.0,JK-C1,颜色,3,1.0,色相偏差 0.0°，与参考图同色（初轮「偏朱红」判断错误，已更正）
+JK-ORANGE-03__T1__qwen30,JK-ORANGE-03,T1_white_pack,qwen-image-3.0,JK-C2,结构,3,1.0,全长拉链，上下各一个拉头，与参考图一致（初轮判为「多出拉头」属误判）
+JK-ORANGE-03__T1__qwen30,JK-ORANGE-03,T1_white_pack,qwen-image-3.0,JK-C3,结构,3,1.0,高立领与垂在领后的帽体成立
+JK-ORANGE-03__T1__qwen30,JK-ORANGE-03,T1_white_pack,qwen-image-3.0,JK-C4,五金/辅料,2,1.0,下摆左右各一根抽绳，带黑色绳扣，对称
+JK-ORANGE-03__T1__qwen30,JK-ORANGE-03,T1_white_pack,qwen-image-3.0,JK-C5,图案,2,1.0,左胸银色反光斜切条位置与形态正确
+JK-ORANGE-03__T1__qwen30,JK-ORANGE-03,T1_white_pack,qwen-image-3.0,JK-C6,结构,1,1.0,袖口黑色弹力包边完整
+JK-ORANGE-03__T1__qwen30,JK-ORANGE-03,T1_white_pack,qwen-image-3.0,JK-C7,材质,2,1.0,薄尼龙细碎皱褶与光泽到位
+JK-ORANGE-03__T1__qwen30__s20261117,JK-ORANGE-03,T1,qwen-image-3.0,JK-C0,整体结构,3,1.0,外套结构成立，袖型与参考图一致
+JK-ORANGE-03__T1__qwen30__s20261117,JK-ORANGE-03,T1,qwen-image-3.0,JK-C1,颜色,3,1.0,色相偏差 0.0°
+JK-ORANGE-03__T1__qwen30__s20261117,JK-ORANGE-03,T1,qwen-image-3.0,JK-C2,结构,3,1.0,全长拉链，双拉头与参考图一致
+JK-ORANGE-03__T1__qwen30__s20261117,JK-ORANGE-03,T1,qwen-image-3.0,JK-C3,结构,3,1.0,立领与帽体成立
+JK-ORANGE-03__T1__qwen30__s20261117,JK-ORANGE-03,T1,qwen-image-3.0,JK-C4,五金/辅料,2,1.0,两根抽绳与绳扣清晰对称
+JK-ORANGE-03__T1__qwen30__s20261117,JK-ORANGE-03,T1,qwen-image-3.0,JK-C5,图案,2,1.0,左胸反光条正确
+JK-ORANGE-03__T1__qwen30__s20261117,JK-ORANGE-03,T1,qwen-image-3.0,JK-C6,结构,1,1.0,袖口包边完整
+JK-ORANGE-03__T1__qwen30__s20261117,JK-ORANGE-03,T1,qwen-image-3.0,JK-C7,材质,2,1.0,薄尼龙皱褶与光泽到位
+JK-ORANGE-03__T1__qwen30__s20261118,JK-ORANGE-03,T1,qwen-image-3.0,JK-C0,整体结构,3,0.5,右袖明显更长更松，整体廓形 h/w 偏差 +5.9%
+JK-ORANGE-03__T1__qwen30__s20261118,JK-ORANGE-03,T1,qwen-image-3.0,JK-C1,颜色,3,1.0,色相偏差 0.0°
+JK-ORANGE-03__T1__qwen30__s20261118,JK-ORANGE-03,T1,qwen-image-3.0,JK-C2,结构,3,1.0,全长拉链，双拉头与参考图一致
+JK-ORANGE-03__T1__qwen30__s20261118,JK-ORANGE-03,T1,qwen-image-3.0,JK-C3,结构,3,1.0,立领与帽体成立
+JK-ORANGE-03__T1__qwen30__s20261118,JK-ORANGE-03,T1,qwen-image-3.0,JK-C4,五金/辅料,2,1.0,两根抽绳与绳扣清晰对称
+JK-ORANGE-03__T1__qwen30__s20261118,JK-ORANGE-03,T1,qwen-image-3.0,JK-C5,图案,2,1.0,左胸反光条正确
+JK-ORANGE-03__T1__qwen30__s20261118,JK-ORANGE-03,T1,qwen-image-3.0,JK-C6,结构,1,1.0,袖口包边完整
+JK-ORANGE-03__T1__qwen30__s20261118,JK-ORANGE-03,T1,qwen-image-3.0,JK-C7,材质,2,1.0,薄尼龙皱褶与光泽到位
+JK-ORANGE-03__T2__baseline,JK-ORANGE-03,T2_scene,baseline-internal-imagegen,JK-C0,整体结构,3,,
+JK-ORANGE-03__T2__baseline,JK-ORANGE-03,T2_scene,baseline-internal-imagegen,JK-C1,颜色,3,,
+JK-ORANGE-03__T2__baseline,JK-ORANGE-03,T2_scene,baseline-internal-imagegen,JK-C2,结构,3,,
+JK-ORANGE-03__T2__baseline,JK-ORANGE-03,T2_scene,baseline-internal-imagegen,JK-C3,结构,3,,
+JK-ORANGE-03__T2__baseline,JK-ORANGE-03,T2_scene,baseline-internal-imagegen,JK-C4,五金/辅料,2,,
+JK-ORANGE-03__T2__baseline,JK-ORANGE-03,T2_scene,baseline-internal-imagegen,JK-C5,图案,2,,
+JK-ORANGE-03__T2__baseline,JK-ORANGE-03,T2_scene,baseline-internal-imagegen,JK-C6,结构,1,,
+JK-ORANGE-03__T2__baseline,JK-ORANGE-03,T2_scene,baseline-internal-imagegen,JK-C7,材质,2,,
+JK-ORANGE-03__T2__qwen30,JK-ORANGE-03,T2_scene,qwen-image-3.0,JK-C0,整体结构,3,,
+JK-ORANGE-03__T2__qwen30,JK-ORANGE-03,T2_scene,qwen-image-3.0,JK-C1,颜色,3,,
+JK-ORANGE-03__T2__qwen30,JK-ORANGE-03,T2_scene,qwen-image-3.0,JK-C2,结构,3,,
+JK-ORANGE-03__T2__qwen30,JK-ORANGE-03,T2_scene,qwen-image-3.0,JK-C3,结构,3,,
+JK-ORANGE-03__T2__qwen30,JK-ORANGE-03,T2_scene,qwen-image-3.0,JK-C4,五金/辅料,2,,
+JK-ORANGE-03__T2__qwen30,JK-ORANGE-03,T2_scene,qwen-image-3.0,JK-C5,图案,2,,
+JK-ORANGE-03__T2__qwen30,JK-ORANGE-03,T2_scene,qwen-image-3.0,JK-C6,结构,1,,
+JK-ORANGE-03__T2__qwen30,JK-ORANGE-03,T2_scene,qwen-image-3.0,JK-C7,材质,2,,
+JK-ORANGE-03__T3__baseline,JK-ORANGE-03,T3_local_edit,baseline-internal-imagegen,JK-C0,整体结构,3,,
+JK-ORANGE-03__T3__baseline,JK-ORANGE-03,T3_local_edit,baseline-internal-imagegen,JK-C1,颜色,3,,
+JK-ORANGE-03__T3__baseline,JK-ORANGE-03,T3_local_edit,baseline-internal-imagegen,JK-C2,结构,3,,
+JK-ORANGE-03__T3__baseline,JK-ORANGE-03,T3_local_edit,baseline-internal-imagegen,JK-C3,结构,3,,
+JK-ORANGE-03__T3__baseline,JK-ORANGE-03,T3_local_edit,baseline-internal-imagegen,JK-C4,五金/辅料,2,,
+JK-ORANGE-03__T3__baseline,JK-ORANGE-03,T3_local_edit,baseline-internal-imagegen,JK-C5,图案,2,,
+JK-ORANGE-03__T3__baseline,JK-ORANGE-03,T3_local_edit,baseline-internal-imagegen,JK-C6,结构,1,,
+JK-ORANGE-03__T3__baseline,JK-ORANGE-03,T3_local_edit,baseline-internal-imagegen,JK-C7,材质,2,,
+JK-ORANGE-03__T3__qwen30,JK-ORANGE-03,T3_local_edit,qwen-image-3.0,JK-C0,整体结构,3,,
+JK-ORANGE-03__T3__qwen30,JK-ORANGE-03,T3_local_edit,qwen-image-3.0,JK-C1,颜色,3,,
+JK-ORANGE-03__T3__qwen30,JK-ORANGE-03,T3_local_edit,qwen-image-3.0,JK-C2,结构,3,,
+JK-ORANGE-03__T3__qwen30,JK-ORANGE-03,T3_local_edit,qwen-image-3.0,JK-C3,结构,3,,
+JK-ORANGE-03__T3__qwen30,JK-ORANGE-03,T3_local_edit,qwen-image-3.0,JK-C4,五金/辅料,2,,
+JK-ORANGE-03__T3__qwen30,JK-ORANGE-03,T3_local_edit,qwen-image-3.0,JK-C5,图案,2,,
+JK-ORANGE-03__T3__qwen30,JK-ORANGE-03,T3_local_edit,qwen-image-3.0,JK-C6,结构,1,,
+JK-ORANGE-03__T3__qwen30,JK-ORANGE-03,T3_local_edit,qwen-image-3.0,JK-C7,材质,2,,
+LS-BLACK-06__T1__baseline,LS-BLACK-06,T1_white_pack,baseline-internal-imagegen,LS-C0,整体结构,3,,
+LS-BLACK-06__T1__baseline,LS-BLACK-06,T1_white_pack,baseline-internal-imagegen,LS-C1,结构,3,,
+LS-BLACK-06__T1__baseline,LS-BLACK-06,T1_white_pack,baseline-internal-imagegen,LS-C2,材质,3,,
+LS-BLACK-06__T1__baseline,LS-BLACK-06,T1_white_pack,baseline-internal-imagegen,LS-C3,五金/辅料,3,,
+LS-BLACK-06__T1__baseline,LS-BLACK-06,T1_white_pack,baseline-internal-imagegen,LS-C4,结构,3,,
+LS-BLACK-06__T1__baseline,LS-BLACK-06,T1_white_pack,baseline-internal-imagegen,LS-C5,结构,1,,
+LS-BLACK-06__T1__baseline,LS-BLACK-06,T1_white_pack,baseline-internal-imagegen,LS-C6,文字,2,,
+LS-BLACK-06__T1__qwen30,LS-BLACK-06,T1_white_pack,qwen-image-3.0,LS-C0,整体结构,3,1.0,左盖右管两个完整单体，膏体自银内管旋出，无夹心、无悬空
+LS-BLACK-06__T1__qwen30,LS-BLACK-06,T1_white_pack,qwen-image-3.0,LS-C1,结构,3,1.0,盖高径比 4.98（参考 4.67），管身组合 5.70（参考 5.53），均在 ±7% 内
+LS-BLACK-06__T1__qwen30,LS-BLACK-06,T1_white_pack,qwen-image-3.0,LS-C2,材质,3,1.0,黑管哑光，仅纵向柔和高光，无镜面反射
+LS-BLACK-06__T1__qwen30,LS-BLACK-06,T1_white_pack,qwen-image-3.0,LS-C3,五金/辅料,3,1.0,金段 242px vs 参考 237px，偏差 +2.1%；位置在黑管与银内管之间
+LS-BLACK-06__T1__qwen30,LS-BLACK-06,T1_white_pack,qwen-image-3.0,LS-C4,结构,3,0.5,斜切面朝左前、砖红色均正确；膏体高 144px vs 参考 131px，偏差 +9.9%
+LS-BLACK-06__T1__qwen30,LS-BLACK-06,T1_white_pack,qwen-image-3.0,LS-C5,结构,1,1.0,两件平行竖立、底端对齐（黑管底 y=939 vs 参考 940），间距同为 75px/900
+LS-BLACK-06__T1__qwen30,LS-BLACK-06,T1_white_pack,qwen-image-3.0,LS-C6,文字,2,1.0,商品本体无任何文字或 logo
+LS-BLACK-06__T2__baseline,LS-BLACK-06,T2_scene,baseline-internal-imagegen,LS-C0,整体结构,3,,
+LS-BLACK-06__T2__baseline,LS-BLACK-06,T2_scene,baseline-internal-imagegen,LS-C1,结构,3,,
+LS-BLACK-06__T2__baseline,LS-BLACK-06,T2_scene,baseline-internal-imagegen,LS-C2,材质,3,,
+LS-BLACK-06__T2__baseline,LS-BLACK-06,T2_scene,baseline-internal-imagegen,LS-C3,五金/辅料,3,,
+LS-BLACK-06__T2__baseline,LS-BLACK-06,T2_scene,baseline-internal-imagegen,LS-C4,结构,3,,
+LS-BLACK-06__T2__baseline,LS-BLACK-06,T2_scene,baseline-internal-imagegen,LS-C5,结构,1,,
+LS-BLACK-06__T2__baseline,LS-BLACK-06,T2_scene,baseline-internal-imagegen,LS-C6,文字,2,,
+LS-BLACK-06__T2__qwen30,LS-BLACK-06,T2_scene,qwen-image-3.0,LS-C0,整体结构,3,,
+LS-BLACK-06__T2__qwen30,LS-BLACK-06,T2_scene,qwen-image-3.0,LS-C1,结构,3,,
+LS-BLACK-06__T2__qwen30,LS-BLACK-06,T2_scene,qwen-image-3.0,LS-C2,材质,3,,
+LS-BLACK-06__T2__qwen30,LS-BLACK-06,T2_scene,qwen-image-3.0,LS-C3,五金/辅料,3,,
+LS-BLACK-06__T2__qwen30,LS-BLACK-06,T2_scene,qwen-image-3.0,LS-C4,结构,3,,
+LS-BLACK-06__T2__qwen30,LS-BLACK-06,T2_scene,qwen-image-3.0,LS-C5,结构,1,,
+LS-BLACK-06__T2__qwen30,LS-BLACK-06,T2_scene,qwen-image-3.0,LS-C6,文字,2,,
+LS-BLACK-06__T3__baseline,LS-BLACK-06,T3_local_edit,baseline-internal-imagegen,LS-C0,整体结构,3,,
+LS-BLACK-06__T3__baseline,LS-BLACK-06,T3_local_edit,baseline-internal-imagegen,LS-C1,结构,3,,
+LS-BLACK-06__T3__baseline,LS-BLACK-06,T3_local_edit,baseline-internal-imagegen,LS-C2,材质,3,,
+LS-BLACK-06__T3__baseline,LS-BLACK-06,T3_local_edit,baseline-internal-imagegen,LS-C3,五金/辅料,3,,
+LS-BLACK-06__T3__baseline,LS-BLACK-06,T3_local_edit,baseline-internal-imagegen,LS-C4,结构,3,,
+LS-BLACK-06__T3__baseline,LS-BLACK-06,T3_local_edit,baseline-internal-imagegen,LS-C5,结构,1,,
+LS-BLACK-06__T3__baseline,LS-BLACK-06,T3_local_edit,baseline-internal-imagegen,LS-C6,文字,2,,
+LS-BLACK-06__T3__qwen30,LS-BLACK-06,T3_local_edit,qwen-image-3.0,LS-C0,整体结构,3,,
+LS-BLACK-06__T3__qwen30,LS-BLACK-06,T3_local_edit,qwen-image-3.0,LS-C1,结构,3,,
+LS-BLACK-06__T3__qwen30,LS-BLACK-06,T3_local_edit,qwen-image-3.0,LS-C2,材质,3,,
+LS-BLACK-06__T3__qwen30,LS-BLACK-06,T3_local_edit,qwen-image-3.0,LS-C3,五金/辅料,3,,
+LS-BLACK-06__T3__qwen30,LS-BLACK-06,T3_local_edit,qwen-image-3.0,LS-C4,结构,3,,
+LS-BLACK-06__T3__qwen30,LS-BLACK-06,T3_local_edit,qwen-image-3.0,LS-C5,结构,1,,
+LS-BLACK-06__T3__qwen30,LS-BLACK-06,T3_local_edit,qwen-image-3.0,LS-C6,文字,2,,
+SR-GLASS-04__T1__baseline,SR-GLASS-04,T1_white_pack,baseline-internal-imagegen,SR-C0,整体结构,3,0.5,瓶体连续，但泵头与瓶口结合处结构交代不清
+SR-GLASS-04__T1__baseline,SR-GLASS-04,T1_white_pack,baseline-internal-imagegen,SR-C1,结构,3,1.0,外轮廓 h/w = 3.219 vs 3.207，偏差 +0.4%
+SR-GLASS-04__T1__baseline,SR-GLASS-04,T1_white_pack,baseline-internal-imagegen,SR-C2,颜色,3,1.0,琥珀橙液体颜色与通透感保持
+SR-GLASS-04__T1__baseline,SR-GLASS-04,T1_white_pack,baseline-internal-imagegen,SR-C3,结构,2,1.0,液面位于瓶肩下方，弧线清晰
+SR-GLASS-04__T1__baseline,SR-GLASS-04,T1_white_pack,baseline-internal-imagegen,SR-C4,五金/辅料,3,0.0,泵头显著放大，由细高圆柱变粗壮圆柱，出液孔由偏侧变居中
+SR-GLASS-04__T1__baseline,SR-GLASS-04,T1_white_pack,baseline-internal-imagegen,SR-C5,文字,3,0.5,三行文字正确，但标签明显放大并下移，遮挡液面分界
+SR-GLASS-04__T1__baseline,SR-GLASS-04,T1_white_pack,baseline-internal-imagegen,SR-C6,结构,1,1.0,吸管保留，末端弯折可见
+SR-GLASS-04__T1__baseline,SR-GLASS-04,T1_white_pack,baseline-internal-imagegen,SR-C7,材质,2,1.0,厚底玻璃与锐利轮廓光保留
+SR-GLASS-04__T1__qwen30,SR-GLASS-04,T1_white_pack,qwen-image-3.0,SR-C0,整体结构,3,1.0,瓶身—瓶颈—泵头—瓶底连续成形，单体完整
+SR-GLASS-04__T1__qwen30,SR-GLASS-04,T1_white_pack,qwen-image-3.0,SR-C1,结构,3,1.0,外轮廓 h/w 偏差 +0.6%
+SR-GLASS-04__T1__qwen30,SR-GLASS-04,T1_white_pack,qwen-image-3.0,SR-C2,颜色,3,1.0,琥珀橙液体颜色、通透感与厚底反光保持
+SR-GLASS-04__T1__qwen30,SR-GLASS-04,T1_white_pack,qwen-image-3.0,SR-C3,结构,2,1.0,液面位于瓶肩下方，弧线清晰
+SR-GLASS-04__T1__qwen30,SR-GLASS-04,T1_white_pack,qwen-image-3.0,SR-C4,五金/辅料,3,0.5,泵头比例偏高大、顶部造型略圆钝，出液孔位置正确
+SR-GLASS-04__T1__qwen30,SR-GLASS-04,T1_white_pack,qwen-image-3.0,SR-C5,文字,3,1.0,三行文字逐字符正确；标签尺寸偏大、位置略下移
+SR-GLASS-04__T1__qwen30,SR-GLASS-04,T1_white_pack,qwen-image-3.0,SR-C6,结构,1,1.0,吸管保留，末端弯折可见
+SR-GLASS-04__T1__qwen30,SR-GLASS-04,T1_white_pack,qwen-image-3.0,SR-C7,材质,2,1.0,玻璃轮廓光与厚底保持
+SR-GLASS-04__T2__baseline,SR-GLASS-04,T2_scene,baseline-internal-imagegen,SR-C0,整体结构,3,,
+SR-GLASS-04__T2__baseline,SR-GLASS-04,T2_scene,baseline-internal-imagegen,SR-C1,结构,3,,
+SR-GLASS-04__T2__baseline,SR-GLASS-04,T2_scene,baseline-internal-imagegen,SR-C2,颜色,3,,
+SR-GLASS-04__T2__baseline,SR-GLASS-04,T2_scene,baseline-internal-imagegen,SR-C3,结构,2,,
+SR-GLASS-04__T2__baseline,SR-GLASS-04,T2_scene,baseline-internal-imagegen,SR-C4,五金/辅料,3,,
+SR-GLASS-04__T2__baseline,SR-GLASS-04,T2_scene,baseline-internal-imagegen,SR-C5,文字,3,,
+SR-GLASS-04__T2__baseline,SR-GLASS-04,T2_scene,baseline-internal-imagegen,SR-C6,结构,1,,
+SR-GLASS-04__T2__baseline,SR-GLASS-04,T2_scene,baseline-internal-imagegen,SR-C7,材质,2,,
+SR-GLASS-04__T2__qwen30,SR-GLASS-04,T2_scene,qwen-image-3.0,SR-C0,整体结构,3,,
+SR-GLASS-04__T2__qwen30,SR-GLASS-04,T2_scene,qwen-image-3.0,SR-C1,结构,3,,
+SR-GLASS-04__T2__qwen30,SR-GLASS-04,T2_scene,qwen-image-3.0,SR-C2,颜色,3,,
+SR-GLASS-04__T2__qwen30,SR-GLASS-04,T2_scene,qwen-image-3.0,SR-C3,结构,2,,
+SR-GLASS-04__T2__qwen30,SR-GLASS-04,T2_scene,qwen-image-3.0,SR-C4,五金/辅料,3,,
+SR-GLASS-04__T2__qwen30,SR-GLASS-04,T2_scene,qwen-image-3.0,SR-C5,文字,3,,
+SR-GLASS-04__T2__qwen30,SR-GLASS-04,T2_scene,qwen-image-3.0,SR-C6,结构,1,,
+SR-GLASS-04__T2__qwen30,SR-GLASS-04,T2_scene,qwen-image-3.0,SR-C7,材质,2,,
+SR-GLASS-04__T3__baseline,SR-GLASS-04,T3_local_edit,baseline-internal-imagegen,SR-C0,整体结构,3,,
+SR-GLASS-04__T3__baseline,SR-GLASS-04,T3_local_edit,baseline-internal-imagegen,SR-C1,结构,3,,
+SR-GLASS-04__T3__baseline,SR-GLASS-04,T3_local_edit,baseline-internal-imagegen,SR-C2,颜色,3,,
+SR-GLASS-04__T3__baseline,SR-GLASS-04,T3_local_edit,baseline-internal-imagegen,SR-C3,结构,2,,
+SR-GLASS-04__T3__baseline,SR-GLASS-04,T3_local_edit,baseline-internal-imagegen,SR-C4,五金/辅料,3,,
+SR-GLASS-04__T3__baseline,SR-GLASS-04,T3_local_edit,baseline-internal-imagegen,SR-C5,文字,3,,
+SR-GLASS-04__T3__baseline,SR-GLASS-04,T3_local_edit,baseline-internal-imagegen,SR-C6,结构,1,,
+SR-GLASS-04__T3__baseline,SR-GLASS-04,T3_local_edit,baseline-internal-imagegen,SR-C7,材质,2,,
+SR-GLASS-04__T3__qwen30,SR-GLASS-04,T3_local_edit,qwen-image-3.0,SR-C0,整体结构,3,,
+SR-GLASS-04__T3__qwen30,SR-GLASS-04,T3_local_edit,qwen-image-3.0,SR-C1,结构,3,,
+SR-GLASS-04__T3__qwen30,SR-GLASS-04,T3_local_edit,qwen-image-3.0,SR-C2,颜色,3,,
+SR-GLASS-04__T3__qwen30,SR-GLASS-04,T3_local_edit,qwen-image-3.0,SR-C3,结构,2,,
+SR-GLASS-04__T3__qwen30,SR-GLASS-04,T3_local_edit,qwen-image-3.0,SR-C4,五金/辅料,3,,
+SR-GLASS-04__T3__qwen30,SR-GLASS-04,T3_local_edit,qwen-image-3.0,SR-C5,文字,3,,
+SR-GLASS-04__T3__qwen30,SR-GLASS-04,T3_local_edit,qwen-image-3.0,SR-C6,结构,1,,
+SR-GLASS-04__T3__qwen30,SR-GLASS-04,T3_local_edit,qwen-image-3.0,SR-C7,材质,2,,
+TS-WHITE-01__T1__baseline,TS-WHITE-01,T1_white_pack,baseline-internal-imagegen,TS-C0,整体结构,3,1.0,整体为一件正常T恤，两袖与衣身关系正确
+TS-WHITE-01__T1__baseline,TS-WHITE-01,T1_white_pack,baseline-internal-imagegen,TS-C1,颜色,3,0.5,衣身被提亮为纯白，参考图米白调丢失
+TS-WHITE-01__T1__baseline,TS-WHITE-01,T1_white_pack,baseline-internal-imagegen,TS-C2,结构,3,1.0,罗纹圆领与双针缝线保留完整
+TS-WHITE-01__T1__baseline,TS-WHITE-01,T1_white_pack,baseline-internal-imagegen,TS-C3,图案,3,1.0,黑色几何印花形状与相对位置一致
+TS-WHITE-01__T1__baseline,TS-WHITE-01,T1_white_pack,baseline-internal-imagegen,TS-C4,结构,2,1.0,廓形 h/w = 1.166 vs 1.150，偏差 +1.4%
+TS-WHITE-01__T1__baseline,TS-WHITE-01,T1_white_pack,baseline-internal-imagegen,TS-C5,工艺,1,1.0,底摆双折边与袖口单针线保留
+TS-WHITE-01__T1__baseline,TS-WHITE-01,T1_white_pack,baseline-internal-imagegen,TS-C6,材质,2,0.5,整体过曝，横向竹节肌理被压平
+TS-WHITE-01__T1__baseline,TS-WHITE-01,T1_white_pack,baseline-internal-imagegen,TS-C7,文字,2,1.0,无凭空文字
+TS-WHITE-01__T1__qwen30,TS-WHITE-01,T1_white_pack,qwen-image-3.0,TS-C0,整体结构,3,1.0,整体为一件正常T恤，袖窿连接连续，无断裂或翻转
+TS-WHITE-01__T1__qwen30,TS-WHITE-01,T1_white_pack,qwen-image-3.0,TS-C1,颜色,3,1.0,暖白（米调）保留，与参考图同色系
+TS-WHITE-01__T1__qwen30,TS-WHITE-01,T1_white_pack,qwen-image-3.0,TS-C2,结构,3,1.0,罗纹圆领、双针缝线与领深均保持
+TS-WHITE-01__T1__qwen30,TS-WHITE-01,T1_white_pack,qwen-image-3.0,TS-C3,图案,3,1.0,印花形状、大小与所处高度一致
+TS-WHITE-01__T1__qwen30,TS-WHITE-01,T1_white_pack,qwen-image-3.0,TS-C4,结构,2,1.0,廓形 h/w 偏差 -0.2%
+TS-WHITE-01__T1__qwen30,TS-WHITE-01,T1_white_pack,qwen-image-3.0,TS-C5,工艺,1,1.0,底摆双折边、袖口明线保留
+TS-WHITE-01__T1__qwen30,TS-WHITE-01,T1_white_pack,qwen-image-3.0,TS-C6,材质,2,0.5,织纹仍在但比参考图平滑，竹节肌理弱化
+TS-WHITE-01__T1__qwen30,TS-WHITE-01,T1_white_pack,qwen-image-3.0,TS-C7,文字,2,1.0,无凭空文字
+TS-WHITE-01__T2__baseline,TS-WHITE-01,T2_scene,baseline-internal-imagegen,TS-C0,整体结构,3,,
+TS-WHITE-01__T2__baseline,TS-WHITE-01,T2_scene,baseline-internal-imagegen,TS-C1,颜色,3,,
+TS-WHITE-01__T2__baseline,TS-WHITE-01,T2_scene,baseline-internal-imagegen,TS-C2,结构,3,,
+TS-WHITE-01__T2__baseline,TS-WHITE-01,T2_scene,baseline-internal-imagegen,TS-C3,图案,3,,
+TS-WHITE-01__T2__baseline,TS-WHITE-01,T2_scene,baseline-internal-imagegen,TS-C4,结构,2,,
+TS-WHITE-01__T2__baseline,TS-WHITE-01,T2_scene,baseline-internal-imagegen,TS-C5,工艺,1,,
+TS-WHITE-01__T2__baseline,TS-WHITE-01,T2_scene,baseline-internal-imagegen,TS-C6,材质,2,,
+TS-WHITE-01__T2__baseline,TS-WHITE-01,T2_scene,baseline-internal-imagegen,TS-C7,文字,2,,
+TS-WHITE-01__T2__qwen30,TS-WHITE-01,T2_scene,qwen-image-3.0,TS-C0,整体结构,3,,
+TS-WHITE-01__T2__qwen30,TS-WHITE-01,T2_scene,qwen-image-3.0,TS-C1,颜色,3,,
+TS-WHITE-01__T2__qwen30,TS-WHITE-01,T2_scene,qwen-image-3.0,TS-C2,结构,3,,
+TS-WHITE-01__T2__qwen30,TS-WHITE-01,T2_scene,qwen-image-3.0,TS-C3,图案,3,,
+TS-WHITE-01__T2__qwen30,TS-WHITE-01,T2_scene,qwen-image-3.0,TS-C4,结构,2,,
+TS-WHITE-01__T2__qwen30,TS-WHITE-01,T2_scene,qwen-image-3.0,TS-C5,工艺,1,,
+TS-WHITE-01__T2__qwen30,TS-WHITE-01,T2_scene,qwen-image-3.0,TS-C6,材质,2,,
+TS-WHITE-01__T2__qwen30,TS-WHITE-01,T2_scene,qwen-image-3.0,TS-C7,文字,2,,
+TS-WHITE-01__T3__baseline,TS-WHITE-01,T3_local_edit,baseline-internal-imagegen,TS-C0,整体结构,3,,
+TS-WHITE-01__T3__baseline,TS-WHITE-01,T3_local_edit,baseline-internal-imagegen,TS-C1,颜色,3,,
+TS-WHITE-01__T3__baseline,TS-WHITE-01,T3_local_edit,baseline-internal-imagegen,TS-C2,结构,3,,
+TS-WHITE-01__T3__baseline,TS-WHITE-01,T3_local_edit,baseline-internal-imagegen,TS-C3,图案,3,,
+TS-WHITE-01__T3__baseline,TS-WHITE-01,T3_local_edit,baseline-internal-imagegen,TS-C4,结构,2,,
+TS-WHITE-01__T3__baseline,TS-WHITE-01,T3_local_edit,baseline-internal-imagegen,TS-C5,工艺,1,,
+TS-WHITE-01__T3__baseline,TS-WHITE-01,T3_local_edit,baseline-internal-imagegen,TS-C6,材质,2,,
+TS-WHITE-01__T3__baseline,TS-WHITE-01,T3_local_edit,baseline-internal-imagegen,TS-C7,文字,2,,
+TS-WHITE-01__T3__qwen30,TS-WHITE-01,T3_local_edit,qwen-image-3.0,TS-C0,整体结构,3,,
+TS-WHITE-01__T3__qwen30,TS-WHITE-01,T3_local_edit,qwen-image-3.0,TS-C1,颜色,3,,
+TS-WHITE-01__T3__qwen30,TS-WHITE-01,T3_local_edit,qwen-image-3.0,TS-C2,结构,3,,
+TS-WHITE-01__T3__qwen30,TS-WHITE-01,T3_local_edit,qwen-image-3.0,TS-C3,图案,3,,
+TS-WHITE-01__T3__qwen30,TS-WHITE-01,T3_local_edit,qwen-image-3.0,TS-C4,结构,2,,
+TS-WHITE-01__T3__qwen30,TS-WHITE-01,T3_local_edit,qwen-image-3.0,TS-C5,工艺,1,,
+TS-WHITE-01__T3__qwen30,TS-WHITE-01,T3_local_edit,qwen-image-3.0,TS-C6,材质,2,,
+TS-WHITE-01__T3__qwen30,TS-WHITE-01,T3_local_edit,qwen-image-3.0,TS-C7,文字,2,,

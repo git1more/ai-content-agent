@@ -1,0 +1,256 @@
+{
+  "sku": "LS-BLACK-06",
+  "name": "黑管金环口红",
+  "profile": "管状",
+  "category": "美妆",
+  "slots": 11,
+  "generated": 11,
+  "passed": 9,
+  "pass_rate": 0.818,
+  "cost_cny": 0.54,
+  "elapsed_s": 63.6,
+  "seconds_per_image": 21.2,
+  "excluded": [
+    {
+      "id": "M3",
+      "label": "背面与反侧",
+      "reason": "圆柱形管身没有可辨认的前后差异：管身是纯哑光黑、无标识，背面与正面在几何上等价，模型只能画出同一面。实测 M3 失败。该槽位由实拍补。"
+    }
+  ],
+  "rows": [
+    {
+      "id": "D1",
+      "group": "详情",
+      "label": "材质纹理",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\D1_材质纹理.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 1.0,
+        "height_ratio": 1.0,
+        "area_ratio": 0.925,
+        "fails": [],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "D2",
+      "group": "详情",
+      "label": "工艺细节",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\D2_工艺细节.png",
+      "check": {
+        "ok": false,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 0.809,
+        "height_ratio": 0.809,
+        "area_ratio": 0.397,
+        "fails": [
+          "槽位专属检查未通过：False"
+        ],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "D3",
+      "group": "详情",
+      "label": "形态比例",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\D3_形态比例.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 0.745,
+        "height_ratio": 0.745,
+        "area_ratio": 0.35,
+        "fails": [],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "D4",
+      "group": "详情",
+      "label": "配色细节",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\D4_配色细节.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 0.744,
+        "height_ratio": 0.744,
+        "area_ratio": 0.351,
+        "fails": [],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "M1",
+      "group": "主图",
+      "label": "正面全貌",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\M1_正面全貌.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 0.694,
+        "height_ratio": 0.694,
+        "area_ratio": 0.219,
+        "fails": [],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "M2",
+      "group": "主图",
+      "label": "45度视角",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\M2_45度视角.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 0.694,
+        "height_ratio": 0.694,
+        "area_ratio": 0.227,
+        "fails": [],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "M3",
+      "group": "主图",
+      "label": "背面与反侧",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\M3_背面与反侧.png",
+      "check": {
+        "ok": false,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 0.694,
+        "height_ratio": 0.694,
+        "area_ratio": 0.218,
+        "fails": [
+          "槽位专属检查未通过：False"
+        ],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "M4",
+      "group": "主图",
+      "label": "关键部位特写",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\M4_关键部位特写.png",
+      "check": {
+        "ok": false,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 0.694,
+        "height_ratio": 0.694,
+        "area_ratio": 0.234,
+        "fails": [
+          "槽位专属检查未通过：False"
+        ],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "M5",
+      "group": "主图",
+      "label": "整体平视",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\M5_整体平视.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 0.694,
+        "height_ratio": 0.694,
+        "area_ratio": 0.223,
+        "fails": [],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "S1",
+      "group": "场景",
+      "label": "室内生活场景",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\S1_室内生活场景.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 1.0,
+        "height_ratio": 1.0,
+        "area_ratio": 1.0,
+        "fails": [],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "S2",
+      "group": "场景",
+      "label": "户外场景",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\S2_户外场景.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 1.0,
+        "height_ratio": 1.0,
+        "area_ratio": 1.0,
+        "fails": [],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    },
+    {
+      "id": "S3",
+      "group": "场景",
+      "label": "使用中",
+      "path": "assets\\ecom_set\\LS-BLACK-06\\S3_使用中.png",
+      "check": {
+        "ok": true,
+        "intact": true,
+        "text": true,
+        "scale_ratio": 0.847,
+        "height_ratio": 0.847,
+        "area_ratio": 0.689,
+        "fails": [],
+        "warns": [
+          "疑似有文字，需人工复核：True"
+        ]
+      },
+      "note": null
+    }
+  ]
+}

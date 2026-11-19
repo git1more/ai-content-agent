@@ -1,0 +1,46 @@
+{
+  "run_id": "JK-ORANGE-03__T1__qwen30__s20261117",
+  "sku": "JK-ORANGE-03",
+  "task": "T1",
+  "model": "qwen-image-3.0",
+  "seed": 20261117,
+  "prompt": "把图中的荧光橙色连帽运动风衣放到纯白色 #FFFFFF 无缝背景上，不要添加任何投影、阴影或倒影，背景必须纯净无渐变。必须严格保持以下身份特征，不得改动：荧光橙色（高饱和，不得偏朱红或橙黄）；前中全长黑色尼龙拉链，银色金属拉头；高立领且连帽垂在领后；袖口黑色弹力包边；下摆左右各一根黑色抽绳带黑色绳扣；左胸银色反光斜切条标识；薄尼龙面料带细碎皱褶。商品完整、居中、不裁切，保持原有朝向与姿态。",
+  "ref": "assets\\p0_testset\\JK-ORANGE-03\\ref_front.png",
+  "started_at": "2026-11-17T09:28:21+00:00",
+  "status": "ok",
+  "elapsed_s": 7.52,
+  "usage": {
+    "input_image_count": 1,
+    "input_image_type": "qima_input_1k",
+    "output_height": 1024,
+    "output_image_count": 1,
+    "output_image_type": "qima_output_1k",
+    "output_width": 1024
+  },
+  "raw": "runs\\JK-ORANGE-03__T1__qwen30__s20261117\\raw_0.png",
+  "final": "runs\\JK-ORANGE-03__T1__qwen30__s20261117\\final.png",
+  "compliance": {
+    "spec": "white_pack_1x1",
+    "pass": true,
+    "canvas": [
+      1200,
+      1200
+    ],
+    "product_h_ratio": 0.652,
+    "product_w_ratio": 0.545,
+    "top_safe_ratio": 0.15,
+    "side_balance": [
+      0.228,
+      0.228
+    ],
+    "bg_median": [
+      255,
+      255,
+      255
+    ],
+    "bg_spread": 0.0,
+    "issues": []
+  },
+  "cost_cny": 0.18,
+  "cost_usd": 0.0252
+}

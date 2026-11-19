@@ -1,0 +1,45 @@
+{
+  "run_id": "CR-MATTE-05__T1__qwen30",
+  "sku": "CR-MATTE-05",
+  "task": "T1",
+  "model": "qwen-image-3.0",
+  "prompt": "把图中的磨砂面霜罐放到纯白色 #FFFFFF 无缝背景上，不要添加任何投影、阴影或倒影，背景必须纯净无渐变。必须严格保持以下身份特征，不得改动：磨砂半透明白玻璃罐身，哑光漫反射、无锐利高光；盖与罐身接缝处一圈香槟金拉丝金属环；罐盖顶面中央的压印凹槽 logo；罐身正面银色烫印小字逐字为 HYDRA CREAM，不得改字；直径与高度比例不变。商品完整、居中、不裁切，保持原有朝向与姿态。",
+  "ref": "assets\\p0_testset\\CR-MATTE-05\\ref_front.png",
+  "started_at": "2026-11-17T05:21:23+00:00",
+  "status": "ok",
+  "elapsed_s": 6.74,
+  "usage": {
+    "input_image_count": 1,
+    "input_image_type": "qima_input_1k",
+    "output_height": 1024,
+    "output_image_count": 1,
+    "output_image_type": "qima_output_1k",
+    "output_width": 1024
+  },
+  "raw": "runs\\CR-MATTE-05__T1__qwen30\\raw_0.png",
+  "final": "runs\\CR-MATTE-05__T1__qwen30\\final.png",
+  "compliance": {
+    "spec": "white_pack_1x1",
+    "pass": true,
+    "canvas": [
+      1200,
+      1200
+    ],
+    "product_h_ratio": 0.652,
+    "product_w_ratio": 0.692,
+    "top_safe_ratio": 0.15,
+    "side_balance": [
+      0.154,
+      0.154
+    ],
+    "bg_median": [
+      255,
+      255,
+      255
+    ],
+    "bg_spread": 0.0,
+    "issues": []
+  },
+  "cost_cny": 0.18,
+  "cost_usd": 0.0252
+}
