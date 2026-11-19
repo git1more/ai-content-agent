@@ -130,6 +130,7 @@ LLM 在这套东西里的位置是**填表**，不是**决定流程**。它写�
 | **引擎** | `compose_prompt.py` | 三层锁 + 空镜开关 + **环境锁变体**（`form.env_variant` 必填）+ **环境卡 canon 注入** |
 | **工具** | `get_ffmpeg.py` / `doc_check.py` / `probe_video.py` / `prompt_bench.py` | 环境与自检 |
 | | `make_showcase.py` | 生成 `docs/showcase/`：关键帧总览、套图一览、角色/环境卡压缩版 |
+| | `check_secrets.py` | 密钥自检：扫工作区与全部 Git 对象（含悬空 blob），命中只报前 6 位不打印内容 |
 | | `qwen_tts_client.py` | TTS 客户端（qwen3-tts-flash），`--list-voices` 看音色 |
 
 ---
