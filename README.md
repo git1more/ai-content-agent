@@ -1,5 +1,8 @@
 # 商品图片与漫剧生成 Agent
 
+[![checks](https://github.com/git1more/ai-content-agent/actions/workflows/checks.yml/badge.svg)](https://github.com/git1more/ai-content-agent/actions/workflows/checks.yml)
+[![python](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/)
+
 一套系统，两条生产线：
 
 - **电商图片**：一张母图 → 一整套 12 张（主图 5 + 场景 3 + 详情 4）
