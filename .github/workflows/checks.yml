@@ -1,0 +1,40 @@
+name: checks
+
+# 只跑零成本、不需要 API Key 的检查。
+# 生成类测试要花钱，不进 CI——那是本地手动跑的（见 README 的「自检与评测」）。
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 规则门禁自检（注入历史事故，漏一条就红）
+        run: python scripts/manju_lint.py --selftest
+
+      - name: 编译器校验（每个剧本都要能编译）
+        run: |
+          for c in config/manju_ch0*.json; do
+            echo "--- $c"
+            python scripts/compose_prompt.py --config "$c" --check
+          done
+
+      - name: 文档一致性（版本号 / 章节日期 / 孤儿文件 / 报告引用）
+        run: python scripts/doc_check.py
+
+      - name: 零成本评测（规则自检 + 单价确定性，与冻结基线比对）
+        run: python scripts/eval_run.py --suite lint --suite cost_determinism

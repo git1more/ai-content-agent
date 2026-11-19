@@ -134,6 +134,29 @@ LLM 在这套东西里的位置是**填表**，不是**决定流程**。它写�
 
 ---
 
+## 环境
+
+Python 3.11+，外部依赖只有两个：
+
+```bash
+pip install -r requirements.txt      # Pillow + numpy
+python scripts/get_ffmpeg.py         # 仅漫剧成片需要；系统已装 ffmpeg 则跳过
+cp .env.example .env                 # 填 PROVIDER_API_KEY（阿里云百炼）
+```
+
+**没有 API Key 也能先验证代码**——自检、编译校验、文档一致性、单价确定性全部是纯本地的：
+
+```bash
+python scripts/manju_lint.py --selftest                 # 规则门禁：注入 19 个历史事故，漏一条就红
+python scripts/compose_prompt.py --config config/manju_ch04.json --check
+python scripts/doc_check.py                             # 版本号 / 章节日期 / 孤儿文件 / 报告引用
+python scripts/eval_run.py --suite lint --suite cost_determinism
+```
+
+CI（`.github/workflows/checks.yml`）跑的就是这四条。
+
+---
+
 ## 快速开始
 
 ```bash

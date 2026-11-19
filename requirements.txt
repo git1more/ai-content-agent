@@ -1,0 +1,10 @@
+# 绝大多数逻辑只用标准库。真正的外部依赖只有两个。
+Pillow>=10.0
+numpy>=1.24
+
+# 可选：画布合成的高级路径（scripts/postprocess_canvas.py 缺 cv2 时自动降级到 PIL 实现）
+# opencv-python>=4.8
+
+# 可选：ffmpeg 不通过 pip 安装。
+# scripts/manju_assemble.py 依赖 tools/ffmpeg/ffmpeg.exe，
+# 缺失时先跑 python scripts/get_ffmpeg.py 下载静态编译版。
