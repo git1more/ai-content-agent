@@ -82,6 +82,9 @@ def main() -> None:
     for rep in ROOT.glob("*.md"):
         if rep.name != DOC.name:
             all_text += rep.read_text(encoding="utf-8", errors="ignore")
+    # 注意：这里读的是**仓库外**的工作区记忆。
+    # 后果是从 clone 出来的仓库跑，这两份日志不存在，孤儿检测会比本地更严格。
+    # 那不是误报——恰恰说明有的脚本只被本地日志记过、没进 README。
     log_dirs = [ROOT / ".workbuddy" / "memory", ROOT.parent / ".workbuddy" / "memory"]
     for log in (f for d in log_dirs if d.exists() for f in d.glob("*.md")):
         all_text += log.read_text(encoding="utf-8", errors="ignore")

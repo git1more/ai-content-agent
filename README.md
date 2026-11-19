@@ -111,6 +111,8 @@ LLM 在这套东西里的位置是**填表**，不是**决定流程**。它写�
 | | `postprocess_canvas.py` | cv2 版画布合成 + 合规门禁（缺 cv2 时自动降级） |
 | | `set_summary.py` / `set_sheet.py` | 跨品类汇总 / 单套 4 列一览图 |
 | **电商 P0 评分** | `p0_freeze_baseline.py` | 冻结基线，换模型时检测退化 |
+| | `p0_prepare_assets.py` | 母图预处理：去水印、修复瑕疵、裁切出 `ref_front.png` |
+| | `p0_make_scorecard.py` | 由 `identity_sheet.json` 派生评分卡三件套（清单 / 运行登记表 / 打分长表）|
 | | `p0_fill_scores.py` / `p0_recalib.py` | 算分 / 比例与色相客观校准 |
 | | `run_batch.py` | 批量执行器（多 SKU × 多任务） |
 | **漫剧** | `manju_run.py` | 定妆稿 / **环境卡** / 关键帧 / 图生视频 / 配音 五阶段（空镜 `has_person=false`；视频 `--concurrency` 并发；环境卡 `--envs` 指定） |
